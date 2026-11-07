@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Syncsoul selo</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&amp;family=Space+Grotesk:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 720px; height: 720px; box-sizing: border-box; background: {{bg}}; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 28px; font-family: 'Space Grotesk', sans-serif">
+<svg width="400" height="400" viewBox="0 0 320 320" role="img" aria-label="Selo Syncsoul">
+<defs>
+<path id="top" d="M32 160 A128 128 0 0 1 288 160"/>
+<path id="bot" d="M18 160 A142 142 0 0 0 302 160"/>
+</defs>
+<circle cx="160" cy="160" r="154" fill="none" stroke="{{accent}}" stroke-width="4"/>
+<circle cx="160" cy="160" r="104" fill="#121B2E" stroke="#2A3D5E" stroke-width="2"/>
+<text font-family="Syncopate, sans-serif" font-weight="700" font-size="20" letter-spacing="5" fill="#D6DDE6"><textPath href="#top" startOffset="50%" text-anchor="middle">SYNCSOUL</textPath></text>
+<text font-family="Space Grotesk, sans-serif" font-size="12" letter-spacing="4" fill="#8A97AB"><textPath href="#bot" startOffset="50%" text-anchor="middle">DRUM &amp; BASS · LIQUID · BREAKS</textPath></text>
+<circle cx="22" cy="160" r="4" fill="{{accent}}"/><circle cx="298" cy="160" r="4" fill="{{accent}}"/>
+<g transform="translate(160 160) scale(0.62) translate(-140 -140)">
+<path d="M40.0,140.0 L43.3,150.4 L46.7,160.3 L50.0,169.4 L53.3,177.2 L56.7,183.3 L60.0,187.6 L63.3,189.7 L66.7,189.7 L70.0,187.6 L73.3,183.3 L76.7,177.2 L80.0,169.4 L83.3,160.3 L86.7,150.4 L90.0,140.0 L93.3,129.6 L96.7,119.7 L100.0,110.6 L103.3,102.8 L106.7,96.7 L110.0,92.4 L113.3,90.3 L116.7,90.3 L120.0,92.4 L123.3,96.7 L126.7,102.8 L130.0,110.6 L133.3,119.7 L136.7,129.6 L140.0,140.0 L143.3,150.4 L146.7,160.3 L150.0,169.4 L153.3,177.2 L156.7,183.3 L160.0,187.6 L163.3,189.7 L166.7,189.7 L170.0,187.6 L173.3,183.3 L176.7,177.2 L180.0,169.4 L183.3,160.3 L186.7,150.4 L190.0,140.0 L193.3,129.6 L196.7,119.7 L200.0,110.6 L203.3,102.8 L206.7,96.7 L210.0,92.4 L213.3,90.3 L216.7,90.3 L220.0,92.4 L223.3,96.7 L226.7,102.8 L230.0,110.6 L233.3,119.7 L236.7,129.6 L240.0,140.0" fill="none" stroke="#D6DDE6" stroke-width="9.799999999999999" stroke-linecap="round"/>
+<path d="M40.0,161.7 L43.3,170.6 L46.7,178.2 L50.0,184.1 L53.3,188.0 L56.7,189.9 L60.0,189.5 L63.3,187.0 L66.7,182.5 L70.0,176.1 L73.3,168.1 L76.7,158.9 L80.0,148.9 L83.3,138.4 L86.7,128.1 L90.0,118.3 L93.3,109.4 L96.7,101.8 L100.0,95.9 L103.3,92.0 L106.7,90.1 L110.0,90.5 L113.3,93.0 L116.7,97.5 L120.0,103.9 L123.3,111.9 L126.7,121.1 L130.0,131.1 L133.3,141.6 L136.7,151.9 L140.0,161.7 L143.3,170.6 L146.7,178.2 L150.0,184.1 L153.3,188.0 L156.7,189.9 L160.0,189.5 L163.3,187.0 L166.7,182.5 L170.0,176.1 L173.3,168.1 L176.7,158.9 L180.0,148.9 L183.3,138.4 L186.7,128.1 L190.0,118.3 L193.3,109.4 L196.7,101.8 L200.0,95.9 L203.3,92.0 L206.7,90.1 L210.0,90.5 L213.3,93.0 L216.7,97.5 L220.0,103.9 L223.3,111.9 L226.7,121.1 L230.0,131.1 L233.3,141.6 L236.7,151.9 L240.0,161.7" fill="none" stroke="{{accent}}" stroke-width="9.799999999999999" stroke-linecap="round"/>
+</g>
+</svg>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px">
+<div style="font-family: 'Syncopate', sans-serif; font-weight: 700; font-size: 26px; letter-spacing: 0.1em; color: #D6DDE6">SYNC<span style="color: {{accent}}; font-weight: 400">SOUL</span></div>
+<div style="font-size: 14px; letter-spacing: 0.24em; color: #8A97AB">EST. 2000 · ERA PS2</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#F2A13B"},"bg":{"editor":"color","default":"#0B1220"},"$preview":{"width":720,"height":720}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#F2A13B', bg: this.props.bg ?? '#0B1220' };
+}
+}
+</script>
+</body>
+</html>

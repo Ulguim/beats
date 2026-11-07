@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Meltedrhythm selo</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&amp;family=Space+Grotesk:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 720px; height: 720px; box-sizing: border-box; background: {{bg}}; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 28px; font-family: 'Space Grotesk', sans-serif">
+<svg width="400" height="400" viewBox="0 0 320 320" role="img" aria-label="Selo Meltedrhythm">
+<defs>
+<path id="top" d="M32 160 A128 128 0 0 1 288 160"/>
+<path id="bot" d="M18 160 A142 142 0 0 0 302 160"/>
+</defs>
+<circle cx="160" cy="160" r="154" fill="none" stroke="{{accent}}" stroke-width="4"/>
+<circle cx="160" cy="160" r="104" fill="#121B2E" stroke="#2A3D5E" stroke-width="2"/>
+<text font-family="Syncopate, sans-serif" font-weight="700" font-size="20" letter-spacing="5" fill="#D6DDE6"><textPath href="#top" startOffset="50%" text-anchor="middle">MELTEDRHYTHM</textPath></text>
+<text font-family="Space Grotesk, sans-serif" font-size="12" letter-spacing="4" fill="#8A97AB"><textPath href="#bot" startOffset="50%" text-anchor="middle">DRUM &amp; BASS · LIQUID · BREAKS</textPath></text>
+<circle cx="22" cy="160" r="4" fill="{{accent}}"/><circle cx="298" cy="160" r="4" fill="{{accent}}"/>
+<g transform="translate(160 160) scale(0.62) translate(-140 -140)">
+<path d="M70 70 L70 150" stroke="#D6DDE6" stroke-width="23.6" stroke-linecap="round"/><circle cx="70" cy="180" r="8.8" fill="#D6DDE6"/><path d="M110 70 L110 190" stroke="{{accent}}" stroke-width="23.6" stroke-linecap="round"/><circle cx="110" cy="220" r="8.8" fill="{{accent}}"/><path d="M150 70 L150 130" stroke="#D6DDE6" stroke-width="23.6" stroke-linecap="round"/><circle cx="150" cy="160" r="8.8" fill="#D6DDE6"/><path d="M190 70 L190 170" stroke="{{accent}}" stroke-width="23.6" stroke-linecap="round"/><circle cx="190" cy="200" r="8.8" fill="{{accent}}"/><path d="M230 70 L230 120" stroke="#6F93C9" stroke-width="23.6" stroke-linecap="round"/><circle cx="230" cy="150" r="8.8" fill="#6F93C9"/>
+</g>
+</svg>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px">
+<div style="font-family: 'Syncopate', sans-serif; font-weight: 700; font-size: 26px; letter-spacing: 0.1em; color: #D6DDE6">MELTED<span style="color: {{accent}}; font-weight: 400">RHYTHM</span></div>
+<div style="font-size: 14px; letter-spacing: 0.24em; color: #8A97AB">EST. 2000 · ERA PS2</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#F2A13B"},"bg":{"editor":"color","default":"#0B1220"},"$preview":{"width":720,"height":720}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#F2A13B', bg: this.props.bg ?? '#0B1220' };
+}
+}
+</script>
+</body>
+</html>

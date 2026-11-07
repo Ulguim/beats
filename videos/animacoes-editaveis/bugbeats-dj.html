@@ -1,0 +1,36 @@
+<!doctype html>
+<!--
+  ANIMAÇÃO EDITÁVEL: bugbeats-dj
+  Abra este arquivo no Chrome ou Firefox: a animação toca sozinha em loop.
+  - BPM: troque o valor de BPM logo abaixo (padrão 174).
+  - Cores: use "localizar e substituir" no editor de texto:
+      #111111 preto  ·  #F2A13B laranja  ·  #EDE6DA creme  ·  #C8322B vermelho
+  - Textos: procure o texto (ex.: "@bugbeats" ou "DRUM N BASS") e edite direto.
+  - O movimento fica na função window.setT, no fim do arquivo: ela recebe a batida atual
+    (0 a 16) e mexe nos elementos. kick(b) é um pulso que cai a cada batida.
+  - Para gerar o MP4 de novo, veja o LEIA-ME.txt.
+-->
+<html><head><meta charset="utf-8"><style>@font-face{font-family:'Russo One';src:url(fontes/RussoOne-Regular.ttf)}@font-face{font-family:'Silkscreen';src:url(fontes/Silkscreen-Regular.ttf)}body{margin:0;background:#EDE6DA}</style></head><body>
+<svg id="root" width="1080" height="1920" viewBox="0 0 1080 1920">
+<rect width="1080" height="1920" fill="#EDE6DA"/>
+<text x="540" y="200" text-anchor="middle" font-family="Silkscreen, monospace" font-size="34" letter-spacing="12" fill="#111111">@bugbeats</text>
+<g transform="translate(0 420) scale(1.5)"><rect width="720" height="720" fill="#EDE6DA"/><g id="bob"><g transform="translate(360 280) scale(1.7) translate(-140 -140)"><g id="tilt"><polyline points="122,78 112,42 80,30" fill="none" stroke="#111111" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><polyline points="158,78 170,40 204,30" fill="none" stroke="#111111" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="80" cy="30" r="7" fill="#111111"/><circle cx="204" cy="30" r="7" fill="#111111"/>
+<path d="M54 150 A86 86 0 0 1 226 150" fill="none" stroke="#111111" stroke-width="13" stroke-linecap="round"/>
+<path d="M140 76 C196 76 214 112 208 148 C202 186 178 208 140 208 C102 208 78 186 72 148 C66 112 84 76 140 76 Z" fill="#F2A13B"/>
+<clipPath id="l1"><rect x="79" y="138.55" width="58" height="54"/></clipPath><g clip-path="url(#l1)"><circle cx="108" cy="148" r="27" fill="#111111"/><circle cx="108" cy="148" r="13.5" fill="none" stroke="#3a3a3a" stroke-width="1"/><circle cx="108" cy="148" r="17.6" fill="none" stroke="#3a3a3a" stroke-width="1"/><circle cx="108" cy="148" r="21.6" fill="none" stroke="#3a3a3a" stroke-width="1"/><circle cx="108" cy="148" r="24.8" fill="none" stroke="#3a3a3a" stroke-width="1"/><g class="spin" data-cx="108" data-cy="148"><path d="M108 148 L133.65 142.6 A25.65 25.65 0 0 1 129.6 161.5 Z" fill="#ffffff" opacity=".12"/><circle cx="108" cy="148" r="8.1" fill="#F2A13B"/><path d="M108 139.9 A8.1 8.1 0 0 1 116.1 148" fill="none" stroke="#EDE6DA" stroke-width="2.5"/><circle cx="108" cy="148" r="1.8900000000000001" fill="#111111"/></g></g><clipPath id="l2"><rect x="143" y="138.55" width="58" height="54"/></clipPath><g clip-path="url(#l2)"><circle cx="172" cy="148" r="27" fill="#111111"/><circle cx="172" cy="148" r="13.5" fill="none" stroke="#3a3a3a" stroke-width="1"/><circle cx="172" cy="148" r="17.6" fill="none" stroke="#3a3a3a" stroke-width="1"/><circle cx="172" cy="148" r="21.6" fill="none" stroke="#3a3a3a" stroke-width="1"/><circle cx="172" cy="148" r="24.8" fill="none" stroke="#3a3a3a" stroke-width="1"/><g class="spin" data-cx="172" data-cy="148"><path d="M172 148 L197.65 142.6 A25.65 25.65 0 0 1 193.6 161.5 Z" fill="#ffffff" opacity=".12"/><circle cx="172" cy="148" r="8.1" fill="#F2A13B"/><path d="M172 139.9 A8.1 8.1 0 0 1 180.1 148" fill="none" stroke="#EDE6DA" stroke-width="2.5"/><circle cx="172" cy="148" r="1.8900000000000001" fill="#111111"/></g></g>
+<path d="M74 136 L206 136 L204 146 L176 146 L168 140 L112 140 L104 146 L76 146 Z" fill="#111111"/>
+<path d="M126 200 Q118 222 134 230 Q128 216 140 206 Z" fill="#111111"/><path d="M154 200 Q162 222 146 230 Q152 216 140 206 Z" fill="#111111"/>
+<rect x="40" y="124" width="30" height="58" rx="13" fill="#111111"/><rect x="210" y="124" width="30" height="58" rx="13" fill="#111111"/>
+<rect x="48" y="136" width="14" height="34" rx="7" fill="#F2A13B"/><rect x="218" y="136" width="14" height="34" rx="7" fill="#F2A13B"/></g></g></g><text x="485.434" y="590" text-anchor="middle" font-family="Russo One, sans-serif" font-size="92" letter-spacing="3" transform="skewX(-12)"><tspan fill="#111111">BUG</tspan><tspan fill="#F2A13B">BEATS</tspan></text></g>
+<text x="540" y="1700" text-anchor="middle" font-family="Silkscreen, monospace" font-size="28" letter-spacing="10" fill="#111111">DRUM N BASS · 2000-2006</text>
+</svg>
+<script>
+const frac=x=>x-Math.floor(x); const kick=b=>Math.exp(-4*frac(b));
+window.setT=b=>{ document.querySelectorAll('.spin').forEach(g=>g.setAttribute('transform',`rotate(${b*90} ${g.dataset.cx} ${g.dataset.cy})`));
+ const k=kick(b); document.getElementById('bob').setAttribute('transform',`translate(0 ${-14*k})`);
+ document.getElementById('tilt').setAttribute('transform',`rotate(${-6+5*Math.sin(Math.PI*b/2)} 140 150)`); };
+window.ready=true;
+const BPM=174;
+if(!navigator.webdriver){const t0=performance.now();const loop=now=>{window.setT(((now-t0)/1000*BPM/60)%16);requestAnimationFrame(loop);};requestAnimationFrame(loop);}
+</script></body></html>

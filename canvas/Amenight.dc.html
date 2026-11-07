@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Amenight</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Michroma&amp;family=Space+Grotesk:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 720px; height: 720px; box-sizing: border-box; background: {{bg}}; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 32px; font-family: 'Space Grotesk', sans-serif">
+<svg width="280" height="280" viewBox="0 0 280 280" role="img" aria-label="Símbolo Amenight: lua crescente sobre uma fileira de barras que lembram as batidas do amen break">
+<circle cx="140" cy="100" r="66" fill="#D6DDE6"></circle>
+<circle cx="168" cy="82" r="58" fill="{{bg}}"></circle>
+<rect x="45" y="210" width="14" height="30" rx="7" fill="#3A5480"></rect>
+<rect x="73" y="180" width="14" height="60" rx="7" fill="#5F82B8"></rect>
+<rect x="101" y="200" width="14" height="40" rx="7" fill="#3A5480"></rect>
+<rect x="129" y="160" width="14" height="80" rx="7" fill="{{accent}}"></rect>
+<rect x="157" y="200" width="14" height="40" rx="7" fill="#3A5480"></rect>
+<rect x="185" y="180" width="14" height="60" rx="7" fill="#5F82B8"></rect>
+<rect x="213" y="210" width="14" height="30" rx="7" fill="#3A5480"></rect>
+</svg>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 12px">
+<div style="font-family: 'Michroma', sans-serif; font-size: 36px; letter-spacing: 0.12em; color: #D6DDE6">AMEN<span style="color: {{accent}}">IGHT</span></div>
+<div style="font-size: 15px; letter-spacing: 0.18em; color: #8A97AB">DRUM &amp; BASS · LIQUID · 2000–2006</div>
+</div>
+<div style="display: flex; align-items: center; gap: 16px">
+<div style="width: 88px; height: 88px; border-radius: 50%; background: #121B2E; display: flex; align-items: center; justify-content: center">
+<svg width="60" height="60" viewBox="0 0 280 280" aria-hidden="true">
+<circle cx="130" cy="110" r="90" fill="#D6DDE6"></circle>
+<circle cx="170" cy="85" r="80" fill="#121B2E"></circle>
+<rect x="80" y="200" width="24" height="50" rx="12" fill="#5F82B8"></rect>
+<rect x="128" y="170" width="24" height="80" rx="12" fill="{{accent}}"></rect>
+<rect x="176" y="200" width="24" height="50" rx="12" fill="#5F82B8"></rect>
+</svg>
+</div>
+<div style="font-size: 14px; color: #8A97AB">como foto de perfil</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#8FB4E8"},"bg":{"editor":"color","default":"#0B1220"},"$preview":{"width":720,"height":720}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#8FB4E8', bg: this.props.bg ?? '#0B1220' };
+}
+}
+</script>
+</body>
+</html>

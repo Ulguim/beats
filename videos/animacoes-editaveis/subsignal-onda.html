@@ -1,0 +1,34 @@
+<!doctype html>
+<!--
+  ANIMAÇÃO EDITÁVEL: subsignal-onda
+  Abra no Chrome ou Firefox: toca sozinha em loop.
+  - BPM: troque o valor de BPM logo abaixo (padrão 174).
+  - Cores: localizar e substituir #111111 (preto), #F2A13B (laranja), #EDE6DA (creme).
+  - Movimento: função window.setT no fim do arquivo (onda, altura da onda e deslocamento da metade de baixo).
+-->
+<html><head><meta charset="utf-8"><style>@font-face{font-family:'Russo One';src:url(fontes/RussoOne-Regular.ttf)}@font-face{font-family:'Silkscreen';src:url(fontes/Silkscreen-Regular.ttf)}body{margin:0;background:#EDE6DA}</style></head><body>
+<svg id="root" width="1080" height="1920" viewBox="0 0 1080 1920">
+<rect width="1080" height="1920" fill="#EDE6DA"/>
+<text x="540" y="200" text-anchor="middle" font-family="Silkscreen, monospace" font-size="34" letter-spacing="12" fill="#111111">@subsignal</text>
+<g transform="translate(0 420) scale(1.5)"><rect width="720" height="720" fill="#EDE6DA"/>
+<defs><clipPath id="tp"><path id="tpP" d=""/></clipPath><clipPath id="bt"><path id="btP" d=""/></clipPath></defs>
+<g clip-path="url(#tp)"><g id="topT"><text x="360" y="300" text-anchor="middle" font-family="Russo One, sans-serif" font-size="150" fill="#111111" dominant-baseline="middle">SUB</text></g></g><g clip-path="url(#bt)"><g id="botT"><text x="360" y="300" text-anchor="middle" font-family="Russo One, sans-serif" font-size="150" fill="#F2A13B" dominant-baseline="middle">SUB</text></g></g>
+<path id="wave" d="" fill="none" stroke="#111111" stroke-width="5"/>
+<text x="360" y="470" text-anchor="middle" font-family="Russo One, sans-serif" font-size="96" letter-spacing="14" fill="#111111">SIGNAL</text>
+<text x="360" y="540" text-anchor="middle" font-family="Silkscreen, monospace" font-size="18" letter-spacing="7" fill="#111111">DRUM N BASS · LIQUID</text></g>
+<text x="540" y="1700" text-anchor="middle" font-family="Silkscreen, monospace" font-size="28" letter-spacing="10" fill="#111111">DRUM N BASS · 2000-2006</text>
+</svg>
+<script>
+const frac=x=>x-Math.floor(x); const kick=b=>Math.exp(-4*frac(b));
+const W=(y,a,ph)=>{let d='M0 '+(y+a*Math.sin(ph)).toFixed(1);for(let x=8;x<=720;x+=8)d+=' L'+x+' '+(y+a*Math.sin(x/720*4*Math.PI+ph)).toFixed(1);return d;};
+window.setT=b=>{const k=kick(b);const ph=-b*Math.PI/2;const a=10+16*k;const w=W(300,a,ph);
+ document.getElementById('wave').setAttribute('d',w);
+ document.getElementById('tpP').setAttribute('d',w+' L720 0 L0 0 Z');
+ document.getElementById('btP').setAttribute('d',w+' L720 720 L0 720 Z');
+ const off=6+26*k*(Math.floor(b)%2?1:-0.6);
+ document.getElementById('botT').setAttribute('transform',`translate(${off.toFixed(1)} ${(4*k).toFixed(1)})`);
+ document.getElementById('topT').setAttribute('transform',`translate(${(-4*k).toFixed(1)} 0)`);};
+window.ready=true;
+const BPM=174;
+if(!navigator.webdriver){const t0=performance.now();const loop=now=>{window.setT(((now-t0)/1000*BPM/60)%16);requestAnimationFrame(loop);};requestAnimationFrame(loop);}
+</script></body></html>

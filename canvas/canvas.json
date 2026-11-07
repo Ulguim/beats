@@ -1,0 +1,1691 @@
+{
+  "v": 3,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-11-04T01:42:00Z"
+  },
+  "title": "Logos da página de música",
+  "launch": {
+    "view": "canvas",
+    "page": "instagram"
+  },
+  "pages": [
+    {
+      "id": "rodadas",
+      "name": "Todas as rodadas"
+    },
+    {
+      "id": "finalistas",
+      "name": "Finalistas"
+    },
+    {
+      "id": "instagram",
+      "name": "Mockups Instagram"
+    }
+  ],
+  "boards": {
+    "Main.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 720,
+      "title": "SonarMotion",
+      "page": "rodadas"
+    },
+    "SonarGround.dc.html": {
+      "x": 800,
+      "y": 0,
+      "w": 720,
+      "h": 720,
+      "title": "SonarGround",
+      "page": "rodadas"
+    },
+    "MovingMinds.dc.html": {
+      "x": 0,
+      "y": 840,
+      "w": 720,
+      "h": 720,
+      "title": "MovingMinds",
+      "page": "rodadas"
+    },
+    "RushRhythm.dc.html": {
+      "x": 800,
+      "y": 840,
+      "w": 720,
+      "h": 720,
+      "title": "RushRhythm",
+      "page": "rodadas"
+    },
+    "ReeseRush.dc.html": {
+      "x": 1840,
+      "y": 0,
+      "w": 720,
+      "h": 720,
+      "title": "ReeseRush",
+      "page": "rodadas"
+    },
+    "SubSignal.dc.html": {
+      "x": 2640,
+      "y": 0,
+      "w": 720,
+      "h": 720,
+      "title": "SubSignal",
+      "page": "rodadas"
+    },
+    "Reeseway.dc.html": {
+      "x": 3440,
+      "y": 0,
+      "w": 720,
+      "h": 720,
+      "title": "Reeseway",
+      "page": "rodadas"
+    },
+    "Amenight.dc.html": {
+      "x": 1840,
+      "y": 840,
+      "w": 720,
+      "h": 720,
+      "title": "Amenight",
+      "page": "rodadas"
+    },
+    "3AMRollers.dc.html": {
+      "x": 2640,
+      "y": 840,
+      "w": 720,
+      "h": 720,
+      "title": "3AMRollers",
+      "page": "rodadas"
+    },
+    "FogBreaks.dc.html": {
+      "x": 3440,
+      "y": 840,
+      "w": 720,
+      "h": 720,
+      "title": "FogBreaks",
+      "page": "rodadas"
+    },
+    "Dubocean.dc.html": {
+      "x": 0,
+      "y": 1960,
+      "w": 720,
+      "h": 720,
+      "title": "Dubocean",
+      "page": "rodadas"
+    },
+    "Overtempo.dc.html": {
+      "x": 800,
+      "y": 1960,
+      "w": 720,
+      "h": 720,
+      "title": "Overtempo",
+      "page": "rodadas"
+    },
+    "Deeprewind.dc.html": {
+      "x": 1600,
+      "y": 1960,
+      "w": 720,
+      "h": 720,
+      "title": "Deeprewind",
+      "page": "rodadas"
+    },
+    "Meltedrhythm.dc.html": {
+      "x": 2400,
+      "y": 1960,
+      "w": 720,
+      "h": 720,
+      "title": "Meltedrhythm",
+      "page": "rodadas"
+    },
+    "Innersub.dc.html": {
+      "x": 3200,
+      "y": 1960,
+      "w": 720,
+      "h": 720,
+      "title": "Innersub",
+      "page": "rodadas"
+    },
+    "Hiddenloop.dc.html": {
+      "x": 0,
+      "y": 2800,
+      "w": 720,
+      "h": 720,
+      "title": "Hiddenloop",
+      "page": "rodadas"
+    },
+    "Secretdub.dc.html": {
+      "x": 800,
+      "y": 2800,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub",
+      "page": "rodadas"
+    },
+    "Lastdub.dc.html": {
+      "x": 1600,
+      "y": 2800,
+      "w": 720,
+      "h": 720,
+      "title": "Lastdub",
+      "page": "rodadas"
+    },
+    "Syncsoul.dc.html": {
+      "x": 2400,
+      "y": 2800,
+      "w": 720,
+      "h": 720,
+      "title": "Syncsoul",
+      "page": "rodadas"
+    },
+    "Wickflip.dc.html": {
+      "x": 3200,
+      "y": 2800,
+      "w": 720,
+      "h": 720,
+      "title": "Wickflip",
+      "page": "rodadas"
+    },
+    "DuboceanB.dc.html": {
+      "x": 0,
+      "y": 3920,
+      "w": 720,
+      "h": 720,
+      "title": "Dubocean (versão selo)",
+      "page": "rodadas"
+    },
+    "OvertempoB.dc.html": {
+      "x": 800,
+      "y": 3920,
+      "w": 720,
+      "h": 720,
+      "title": "Overtempo (versão selo)",
+      "page": "rodadas"
+    },
+    "DeeprewindB.dc.html": {
+      "x": 1600,
+      "y": 3920,
+      "w": 720,
+      "h": 720,
+      "title": "Deeprewind (versão selo)",
+      "page": "rodadas"
+    },
+    "MeltedrhythmB.dc.html": {
+      "x": 2400,
+      "y": 3920,
+      "w": 720,
+      "h": 720,
+      "title": "Meltedrhythm (versão selo)",
+      "page": "rodadas"
+    },
+    "InnersubB.dc.html": {
+      "x": 3200,
+      "y": 3920,
+      "w": 720,
+      "h": 720,
+      "title": "Innersub (versão selo)",
+      "page": "rodadas"
+    },
+    "HiddenloopB.dc.html": {
+      "x": 0,
+      "y": 4760,
+      "w": 720,
+      "h": 720,
+      "title": "Hiddenloop (versão selo)",
+      "page": "rodadas"
+    },
+    "SecretdubB.dc.html": {
+      "x": 800,
+      "y": 4760,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub (versão selo)",
+      "page": "rodadas"
+    },
+    "LastdubB.dc.html": {
+      "x": 1600,
+      "y": 4760,
+      "w": 720,
+      "h": 720,
+      "title": "Lastdub (versão selo)",
+      "page": "rodadas"
+    },
+    "SyncsoulB.dc.html": {
+      "x": 2400,
+      "y": 4760,
+      "w": 720,
+      "h": 720,
+      "title": "Syncsoul (versão selo)",
+      "page": "rodadas"
+    },
+    "WickflipB.dc.html": {
+      "x": 3200,
+      "y": 4760,
+      "w": 720,
+      "h": 720,
+      "title": "Wickflip (versão selo)",
+      "page": "rodadas"
+    },
+    "Tempocity.dc.html": {
+      "x": 0,
+      "y": 5880,
+      "w": 720,
+      "h": 720,
+      "title": "Tempocity",
+      "page": "rodadas"
+    },
+    "Tempocity-Laranja.dc.html": {
+      "x": 800,
+      "y": 5880,
+      "w": 720,
+      "h": 720,
+      "title": "Tempocity · Laranja",
+      "page": "rodadas"
+    },
+    "Tempocity-Acido.dc.html": {
+      "x": 1600,
+      "y": 5880,
+      "w": 720,
+      "h": 720,
+      "title": "Tempocity · Acido",
+      "page": "rodadas"
+    },
+    "Tempocity-Magenta.dc.html": {
+      "x": 2400,
+      "y": 5880,
+      "w": 720,
+      "h": 720,
+      "title": "Tempocity · Magenta",
+      "page": "rodadas"
+    },
+    "Tempocity-Claro.dc.html": {
+      "x": 3200,
+      "y": 5880,
+      "w": 720,
+      "h": 720,
+      "title": "Tempocity · Claro",
+      "page": "rodadas"
+    },
+    "BugBeats.dc.html": {
+      "x": 0,
+      "y": 7000,
+      "w": 720,
+      "h": 720,
+      "title": "BugBeats",
+      "page": "rodadas"
+    },
+    "BugBeatsB.dc.html": {
+      "x": 800,
+      "y": 7000,
+      "w": 720,
+      "h": 720,
+      "title": "BugBeats (versão selo)",
+      "page": "rodadas"
+    },
+    "BugBeats-Laranja.dc.html": {
+      "x": 1600,
+      "y": 7000,
+      "w": 720,
+      "h": 720,
+      "title": "BugBeats · Laranja",
+      "page": "rodadas"
+    },
+    "BugBeats-Claro.dc.html": {
+      "x": 2400,
+      "y": 7000,
+      "w": 720,
+      "h": 720,
+      "title": "BugBeats · Claro",
+      "page": "rodadas"
+    },
+    "BugBeatsSombra.dc.html": {
+      "x": 0,
+      "y": 8120,
+      "w": 720,
+      "h": 720,
+      "title": "BugBeats · Sombra em movimento",
+      "page": "rodadas"
+    },
+    "BugBeatsCabeca.dc.html": {
+      "x": 800,
+      "y": 8120,
+      "w": 720,
+      "h": 720,
+      "title": "BugBeats · Cabeça com fones",
+      "page": "rodadas"
+    },
+    "BugBeatsLowPoly.dc.html": {
+      "x": 1600,
+      "y": 8120,
+      "w": 720,
+      "h": 720,
+      "title": "BugBeats · Cabeça low poly",
+      "page": "rodadas"
+    },
+    "BugBeatsTrilha.dc.html": {
+      "x": 0,
+      "y": 8960,
+      "w": 720,
+      "h": 720,
+      "title": "BugBeats · Trilha em onda",
+      "page": "rodadas"
+    },
+    "BugBeatsVinil.dc.html": {
+      "x": 800,
+      "y": 8960,
+      "w": 720,
+      "h": 720,
+      "title": "BugBeats · Formiga no vinil",
+      "page": "rodadas"
+    },
+    "BugBeatsLinha.dc.html": {
+      "x": 1600,
+      "y": 8960,
+      "w": 720,
+      "h": 720,
+      "title": "BugBeats · Traço e batida",
+      "page": "rodadas"
+    },
+    "MockupBugBeats.dc.html": {
+      "x": 0,
+      "y": 10120,
+      "w": 920,
+      "h": 1000,
+      "title": "Mockup · Bug Beats",
+      "page": "rodadas"
+    },
+    "MockupDeeprewind.dc.html": {
+      "x": 1000,
+      "y": 10120,
+      "w": 920,
+      "h": 1000,
+      "title": "Mockup · Deeprewind",
+      "page": "rodadas"
+    },
+    "MockupMeltedrhythm.dc.html": {
+      "x": 2000,
+      "y": 10120,
+      "w": 920,
+      "h": 1000,
+      "title": "Mockup · Meltedrhythm",
+      "page": "rodadas"
+    },
+    "Y2KBugBeats.dc.html": {
+      "x": 0,
+      "y": 11480,
+      "w": 720,
+      "h": 720,
+      "title": "BUGBEATS · logo 3D",
+      "page": "rodadas"
+    },
+    "Y2KReelBugBeats.dc.html": {
+      "x": 800,
+      "y": 11480,
+      "w": 540,
+      "h": 960,
+      "title": "BUGBEATS · vídeo 3D",
+      "page": "rodadas"
+    },
+    "Y2KDeeprewind.dc.html": {
+      "x": 1400,
+      "y": 11480,
+      "w": 720,
+      "h": 720,
+      "title": "DEEPREWIND · logo 3D",
+      "page": "rodadas"
+    },
+    "Y2KReelDeeprewind.dc.html": {
+      "x": 2200,
+      "y": 11480,
+      "w": 540,
+      "h": 960,
+      "title": "DEEPREWIND · vídeo 3D",
+      "page": "rodadas"
+    },
+    "Y2KMeltedrhythm.dc.html": {
+      "x": 2800,
+      "y": 11480,
+      "w": 720,
+      "h": 720,
+      "title": "MELTEDRHYTHM · logo 3D",
+      "page": "rodadas"
+    },
+    "Y2KReelMeltedrhythm.dc.html": {
+      "x": 3600,
+      "y": 11480,
+      "w": 540,
+      "h": 960,
+      "title": "MELTEDRHYTHM · vídeo 3D",
+      "page": "rodadas"
+    },
+    "IdPrancha.dc.html": {
+      "x": 0,
+      "y": 12800,
+      "w": 1600,
+      "h": 1000,
+      "title": "Bug Beats · prancha de identidade",
+      "page": "rodadas"
+    },
+    "IdPrincipal.dc.html": {
+      "x": 0,
+      "y": 13880,
+      "w": 720,
+      "h": 720,
+      "title": "Logo principal",
+      "page": "rodadas"
+    },
+    "IdSelo.dc.html": {
+      "x": 800,
+      "y": 13880,
+      "w": 720,
+      "h": 720,
+      "title": "Selo",
+      "page": "rodadas"
+    },
+    "IdCarimbo.dc.html": {
+      "x": 1600,
+      "y": 13880,
+      "w": 720,
+      "h": 720,
+      "title": "Carimbo",
+      "page": "rodadas"
+    },
+    "IdTipografico.dc.html": {
+      "x": 2400,
+      "y": 13880,
+      "w": 720,
+      "h": 720,
+      "title": "Tipográfico",
+      "page": "rodadas"
+    },
+    "IdAvatar.dc.html": {
+      "x": 3200,
+      "y": 13880,
+      "w": 720,
+      "h": 720,
+      "title": "Avatar",
+      "page": "rodadas"
+    },
+    "FlowDubocean.dc.html": {
+      "x": 0,
+      "y": 15200,
+      "w": 720,
+      "h": 720,
+      "title": "Dubocean · principal",
+      "page": "rodadas"
+    },
+    "FlowSecretdub.dc.html": {
+      "x": 800,
+      "y": 15200,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · principal",
+      "page": "rodadas"
+    },
+    "FlowBugBeats.dc.html": {
+      "x": 1600,
+      "y": 15200,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · principal (com eco)",
+      "page": "rodadas"
+    },
+    "FlowDuboceanAv.dc.html": {
+      "x": 0,
+      "y": 16000,
+      "w": 720,
+      "h": 720,
+      "title": "Dubocean · avatar",
+      "page": "rodadas"
+    },
+    "FlowSecretdubAv.dc.html": {
+      "x": 800,
+      "y": 16000,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · avatar",
+      "page": "rodadas"
+    },
+    "FlowBugBeatsAv.dc.html": {
+      "x": 1600,
+      "y": 16000,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · avatar",
+      "page": "rodadas"
+    },
+    "V3BugBeats.dc.html": {
+      "x": 0,
+      "y": 17100,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats v3 · principal",
+      "page": "rodadas"
+    },
+    "V3BugBeatsAv.dc.html": {
+      "x": 800,
+      "y": 17100,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats v3 · avatar",
+      "page": "rodadas"
+    },
+    "V3BugBeatsNeg.dc.html": {
+      "x": 1600,
+      "y": 17100,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats v3 · fundo laranja",
+      "page": "rodadas"
+    },
+    "SecPal0.dc.html": {
+      "x": 0,
+      "y": 18180,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · Vermelho dubplate",
+      "page": "rodadas"
+    },
+    "SecPal1.dc.html": {
+      "x": 800,
+      "y": 18180,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · Prata e cobalto",
+      "page": "rodadas"
+    },
+    "SecPal2.dc.html": {
+      "x": 1600,
+      "y": 18180,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · Verde garrafa",
+      "page": "rodadas"
+    },
+    "SecPal3.dc.html": {
+      "x": 0,
+      "y": 18980,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · Roxo e menta",
+      "page": "rodadas"
+    },
+    "SecPal4.dc.html": {
+      "x": 800,
+      "y": 18980,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · Monocromo",
+      "page": "rodadas"
+    },
+    "SecPal5.dc.html": {
+      "x": 1600,
+      "y": 18980,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · Amarelo ácido",
+      "page": "rodadas"
+    },
+    "Sec2SecA.dc.html": {
+      "x": 0,
+      "y": 20100,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · disco saindo da capa",
+      "page": "rodadas"
+    },
+    "Sec2SecB.dc.html": {
+      "x": 800,
+      "y": 20100,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · eclipse",
+      "page": "rodadas"
+    },
+    "Sec2SecC.dc.html": {
+      "x": 1600,
+      "y": 20100,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · braço em S",
+      "page": "rodadas"
+    },
+    "V4B4Fones.dc.html": {
+      "x": 0,
+      "y": 21100,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · formiga de fone",
+      "page": "rodadas"
+    },
+    "V4B4Vinil.dc.html": {
+      "x": 800,
+      "y": 21100,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · abdômen de vinil",
+      "page": "rodadas"
+    },
+    "V4B4Play.dc.html": {
+      "x": 1600,
+      "y": 21100,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · corpo de play",
+      "page": "rodadas"
+    },
+    "V4B4Sub.dc.html": {
+      "x": 2400,
+      "y": 21100,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · abdômen de subwoofer",
+      "page": "rodadas"
+    },
+    "V4B4Notas.dc.html": {
+      "x": 3200,
+      "y": 21100,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · antenas de nota",
+      "page": "rodadas"
+    },
+    "V4S4Censura.dc.html": {
+      "x": 0,
+      "y": 22180,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · rótulo censurado",
+      "page": "rodadas"
+    },
+    "V4S4WhiteLabel.dc.html": {
+      "x": 800,
+      "y": 22180,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · white label à mão",
+      "page": "rodadas"
+    },
+    "V4S4LadoOculto.dc.html": {
+      "x": 1600,
+      "y": 22180,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · lado oculto",
+      "page": "rodadas"
+    },
+    "V4S4Voando.dc.html": {
+      "x": 2400,
+      "y": 22180,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · disco em voo",
+      "page": "rodadas"
+    },
+    "FinBugPrancha.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1600,
+      "h": 1000,
+      "title": "Bug Beats · prancha de identidade",
+      "page": "finalistas"
+    },
+    "FinBugV3.dc.html": {
+      "x": 800,
+      "y": 1120,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats v3 · principal",
+      "page": "finalistas"
+    },
+    "FinBugV3Laranja.dc.html": {
+      "x": 1600,
+      "y": 1120,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats v3 · fundo laranja",
+      "page": "finalistas"
+    },
+    "FinBugV3Avatar.dc.html": {
+      "x": 2400,
+      "y": 1120,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats v3 · avatar",
+      "page": "finalistas"
+    },
+    "FinBugPrincipal.dc.html": {
+      "x": 1680,
+      "y": 0,
+      "w": 720,
+      "h": 720,
+      "title": "Logo principal",
+      "page": "finalistas"
+    },
+    "FinBugSelo.dc.html": {
+      "x": 2480,
+      "y": 0,
+      "w": 720,
+      "h": 720,
+      "title": "Selo",
+      "page": "finalistas"
+    },
+    "FinBugCarimbo.dc.html": {
+      "x": 3280,
+      "y": 0,
+      "w": 720,
+      "h": 720,
+      "title": "Carimbo",
+      "page": "finalistas"
+    },
+    "FinBugTipografico.dc.html": {
+      "x": 4080,
+      "y": 0,
+      "w": 720,
+      "h": 720,
+      "title": "Tipográfico",
+      "page": "finalistas"
+    },
+    "FinBugAvatar.dc.html": {
+      "x": 0,
+      "y": 1120,
+      "w": 720,
+      "h": 720,
+      "title": "Avatar",
+      "page": "finalistas"
+    },
+    "FinBugEco.dc.html": {
+      "x": 3200,
+      "y": 1120,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · principal (com eco)",
+      "page": "finalistas"
+    },
+    "FinBugCabecaFones.dc.html": {
+      "x": 4000,
+      "y": 1120,
+      "w": 720,
+      "h": 720,
+      "title": "BugBeats · Cabeça com fones",
+      "page": "finalistas"
+    },
+    "FinBugCabecaLowPoly.dc.html": {
+      "x": 0,
+      "y": 1960,
+      "w": 720,
+      "h": 720,
+      "title": "BugBeats · Cabeça low poly",
+      "page": "finalistas"
+    },
+    "FinBugTrilha.dc.html": {
+      "x": 800,
+      "y": 1960,
+      "w": 720,
+      "h": 720,
+      "title": "BugBeats · Trilha em onda",
+      "page": "finalistas"
+    },
+    "FinSecEco.dc.html": {
+      "x": 0,
+      "y": 5480,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · principal",
+      "page": "finalistas"
+    },
+    "FinSecVermelho.dc.html": {
+      "x": 800,
+      "y": 5480,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · Vermelho dubplate",
+      "page": "finalistas"
+    },
+    "FinSecMonocromo.dc.html": {
+      "x": 1600,
+      "y": 5480,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · Monocromo",
+      "page": "finalistas"
+    },
+    "FinSecBracoS.dc.html": {
+      "x": 2400,
+      "y": 5480,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · braço em S",
+      "page": "finalistas"
+    },
+    "FinSonarMotion.dc.html": {
+      "x": 0,
+      "y": 8160,
+      "w": 720,
+      "h": 720,
+      "title": "SonarMotion",
+      "page": "finalistas"
+    },
+    "FinSubSignal.dc.html": {
+      "x": 1600,
+      "y": 8160,
+      "w": 720,
+      "h": 720,
+      "title": "SubSignal",
+      "page": "finalistas"
+    },
+    "FinLastdub.dc.html": {
+      "x": 3200,
+      "y": 8160,
+      "w": 720,
+      "h": 720,
+      "title": "Lastdub",
+      "page": "finalistas"
+    },
+    "EvBugSeloV3.dc.html": {
+      "x": 2400,
+      "y": 23300,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · selo com a formiga v3",
+      "page": "rodadas"
+    },
+    "EvBugCabeca.dc.html": {
+      "x": 0,
+      "y": 23300,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · cabeça com fones chapada",
+      "page": "rodadas"
+    },
+    "EvBugCabecaAv.dc.html": {
+      "x": 800,
+      "y": 23300,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · avatar cabeça com fones",
+      "page": "rodadas"
+    },
+    "EvBugLowPoly.dc.html": {
+      "x": 1600,
+      "y": 23300,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · cabeça low poly chapada",
+      "page": "rodadas"
+    },
+    "EvBugHorizontal.dc.html": {
+      "x": 0,
+      "y": 24980,
+      "w": 1440,
+      "h": 480,
+      "title": "Bug Beats · logo horizontal",
+      "page": "rodadas"
+    },
+    "EvBugTrilhaBanner.dc.html": {
+      "x": 1520,
+      "y": 24980,
+      "w": 1440,
+      "h": 480,
+      "title": "Bug Beats · banner trilha em onda",
+      "page": "rodadas"
+    },
+    "EvSecBracoMono.dc.html": {
+      "x": 800,
+      "y": 24140,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · braço em S monocromo",
+      "page": "rodadas"
+    },
+    "EvSecBracoAv.dc.html": {
+      "x": 4800,
+      "y": 23300,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · avatar braço em S",
+      "page": "rodadas"
+    },
+    "EvSecSelo.dc.html": {
+      "x": 1600,
+      "y": 24140,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · selo redondo",
+      "page": "rodadas"
+    },
+    "EvSecBracoChave.dc.html": {
+      "x": 0,
+      "y": 24140,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · braço em S + fechadura",
+      "page": "rodadas"
+    },
+    "EvSonar.dc.html": {
+      "x": 2400,
+      "y": 24140,
+      "w": 720,
+      "h": 720,
+      "title": "SonarMotion · chapado",
+      "page": "rodadas"
+    },
+    "EvSonarAv.dc.html": {
+      "x": 3200,
+      "y": 24140,
+      "w": 720,
+      "h": 720,
+      "title": "SonarMotion · avatar",
+      "page": "rodadas"
+    },
+    "EvSubSignal.dc.html": {
+      "x": 4000,
+      "y": 24140,
+      "w": 720,
+      "h": 720,
+      "title": "SubSignal · chapado",
+      "page": "rodadas"
+    },
+    "EvSubSignalAv.dc.html": {
+      "x": 4800,
+      "y": 24140,
+      "w": 720,
+      "h": 720,
+      "title": "SubSignal · avatar",
+      "page": "rodadas"
+    },
+    "EvLastdub.dc.html": {
+      "x": 3200,
+      "y": 23300,
+      "w": 720,
+      "h": 720,
+      "title": "Lastdub · chapado",
+      "page": "rodadas"
+    },
+    "EvLastdubAv.dc.html": {
+      "x": 4000,
+      "y": 23300,
+      "w": 720,
+      "h": 720,
+      "title": "Lastdub · avatar",
+      "page": "rodadas"
+    },
+    "E2BugFlyer.dc.html": {
+      "x": 0,
+      "y": 3300,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · flyer de retícula",
+      "page": "finalistas"
+    },
+    "E2BugFlyerNoite.dc.html": {
+      "x": 800,
+      "y": 3300,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · flyer de retícula noite",
+      "page": "finalistas"
+    },
+    "E2BugFlyerAv.dc.html": {
+      "x": 1600,
+      "y": 3300,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · avatar retícula",
+      "page": "finalistas"
+    },
+    "E2SecDub.dc.html": {
+      "x": 0,
+      "y": 6820,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · DUB em vinil",
+      "page": "finalistas"
+    },
+    "E2SecDubAv.dc.html": {
+      "x": 800,
+      "y": 6820,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · avatar D de vinil",
+      "page": "finalistas"
+    },
+    "E2SecS.dc.html": {
+      "x": 1600,
+      "y": 6820,
+      "w": 720,
+      "h": 720,
+      "title": "Secretdub · S do braço",
+      "page": "finalistas"
+    },
+    "E2Sonar.dc.html": {
+      "x": 800,
+      "y": 8160,
+      "w": 720,
+      "h": 720,
+      "title": "SonarMotion · radar no O",
+      "page": "finalistas"
+    },
+    "E2SubSignal.dc.html": {
+      "x": 2400,
+      "y": 8160,
+      "w": 720,
+      "h": 720,
+      "title": "SubSignal · palavra cortada pela onda",
+      "page": "finalistas"
+    },
+    "E2Lastdub.dc.html": {
+      "x": 4000,
+      "y": 8160,
+      "w": 720,
+      "h": 720,
+      "title": "Lastdub · D de arcos",
+      "page": "finalistas"
+    },
+    "E3BugOlhosVinil.dc.html": {
+      "x": 2400,
+      "y": 3300,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · DJ de óculos de vinil",
+      "page": "finalistas"
+    },
+    "E3BugOlhosVinilAv.dc.html": {
+      "x": 3200,
+      "y": 3300,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · avatar DJ",
+      "page": "finalistas"
+    },
+    "E3BugLowPolyRet.dc.html": {
+      "x": 4000,
+      "y": 3300,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · low poly em retícula",
+      "page": "finalistas"
+    },
+    "E3BugColonia.dc.html": {
+      "x": 0,
+      "y": 4140,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · a colônia é a onda",
+      "page": "finalistas"
+    },
+    "E4BugCurtindo.dc.html": {
+      "x": 4000,
+      "y": 24980,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · curtindo o som",
+      "page": "rodadas"
+    },
+    "E4BugCurtindoAv.dc.html": {
+      "x": 4800,
+      "y": 24980,
+      "w": 720,
+      "h": 720,
+      "title": "Bug Beats · avatar curtindo o som",
+      "page": "rodadas"
+    },
+    "IgBugBeats.dc.html": {
+      "x": 0,
+      "y": 26300,
+      "w": 1380,
+      "h": 1000,
+      "title": "Bug Beats · mockup Instagram",
+      "page": "rodadas"
+    },
+    "IgSecretdub.dc.html": {
+      "x": 1460,
+      "y": 26300,
+      "w": 1380,
+      "h": 1000,
+      "title": "Secretdub · mockup Instagram",
+      "page": "rodadas"
+    },
+    "IgBugFlyer.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1380,
+      "h": 1000,
+      "title": "Bug Beats · flyer de retícula",
+      "page": "instagram"
+    },
+    "IgBugDJ.dc.html": {
+      "x": 1460,
+      "y": 0,
+      "w": 1380,
+      "h": 1000,
+      "title": "Bug Beats · DJ de óculos de vinil",
+      "page": "instagram"
+    },
+    "IgBugLowPoly.dc.html": {
+      "x": 2920,
+      "y": 0,
+      "w": 1380,
+      "h": 1000,
+      "title": "Bug Beats · low poly em retícula",
+      "page": "instagram"
+    },
+    "IgBugColonia.dc.html": {
+      "x": 0,
+      "y": 1120,
+      "w": 1380,
+      "h": 1000,
+      "title": "Bug Beats · a colônia é a onda",
+      "page": "instagram"
+    },
+    "IgBugV3.dc.html": {
+      "x": 1460,
+      "y": 1120,
+      "w": 1380,
+      "h": 1000,
+      "title": "Bug Beats · formiga v3",
+      "page": "instagram"
+    },
+    "IgBugSelo.dc.html": {
+      "x": 2920,
+      "y": 1120,
+      "w": 1380,
+      "h": 1000,
+      "title": "Bug Beats · identidade chapada e selo",
+      "page": "instagram"
+    },
+    "IgBugEco.dc.html": {
+      "x": 0,
+      "y": 2240,
+      "w": 1380,
+      "h": 1000,
+      "title": "Bug Beats · formiga com eco",
+      "page": "instagram"
+    },
+    "IgSecDub.dc.html": {
+      "x": 0,
+      "y": 3880,
+      "w": 1380,
+      "h": 1000,
+      "title": "Secretdub · DUB em vinil",
+      "page": "instagram"
+    },
+    "IgSecS.dc.html": {
+      "x": 1460,
+      "y": 3880,
+      "w": 1380,
+      "h": 1000,
+      "title": "Secretdub · S do braço",
+      "page": "instagram"
+    },
+    "IgSecEco.dc.html": {
+      "x": 2920,
+      "y": 3880,
+      "w": 1380,
+      "h": 1000,
+      "title": "Secretdub · fechadura com eco",
+      "page": "instagram"
+    },
+    "IgSecVermelho.dc.html": {
+      "x": 0,
+      "y": 5000,
+      "w": 1380,
+      "h": 1000,
+      "title": "Secretdub · vermelho dubplate",
+      "page": "instagram"
+    },
+    "IgSecMono.dc.html": {
+      "x": 1460,
+      "y": 5000,
+      "w": 1380,
+      "h": 1000,
+      "title": "Secretdub · monocromo",
+      "page": "instagram"
+    },
+    "IgSonar.dc.html": {
+      "x": 0,
+      "y": 6640,
+      "w": 1380,
+      "h": 1000,
+      "title": "SonarMotion · radar no O",
+      "page": "instagram"
+    },
+    "IgSubSignal.dc.html": {
+      "x": 1460,
+      "y": 6640,
+      "w": 1380,
+      "h": 1000,
+      "title": "SubSignal · palavra cortada pela onda",
+      "page": "instagram"
+    },
+    "IgLastdub.dc.html": {
+      "x": 2920,
+      "y": 6640,
+      "w": 1380,
+      "h": 1000,
+      "title": "Lastdub · D de arcos",
+      "page": "instagram"
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "SonarGround.dc.html",
+    "MovingMinds.dc.html",
+    "RushRhythm.dc.html",
+    "ReeseRush.dc.html",
+    "SubSignal.dc.html",
+    "Reeseway.dc.html",
+    "Amenight.dc.html",
+    "3AMRollers.dc.html",
+    "FogBreaks.dc.html",
+    "Dubocean.dc.html",
+    "Overtempo.dc.html",
+    "Deeprewind.dc.html",
+    "Meltedrhythm.dc.html",
+    "Innersub.dc.html",
+    "Hiddenloop.dc.html",
+    "Secretdub.dc.html",
+    "Lastdub.dc.html",
+    "Syncsoul.dc.html",
+    "Wickflip.dc.html",
+    "DuboceanB.dc.html",
+    "OvertempoB.dc.html",
+    "DeeprewindB.dc.html",
+    "MeltedrhythmB.dc.html",
+    "InnersubB.dc.html",
+    "HiddenloopB.dc.html",
+    "SecretdubB.dc.html",
+    "LastdubB.dc.html",
+    "SyncsoulB.dc.html",
+    "WickflipB.dc.html",
+    "Tempocity.dc.html",
+    "Tempocity-Laranja.dc.html",
+    "Tempocity-Acido.dc.html",
+    "Tempocity-Magenta.dc.html",
+    "Tempocity-Claro.dc.html",
+    "BugBeats.dc.html",
+    "BugBeatsB.dc.html",
+    "BugBeats-Laranja.dc.html",
+    "BugBeats-Claro.dc.html",
+    "BugBeatsSombra.dc.html",
+    "BugBeatsCabeca.dc.html",
+    "BugBeatsLowPoly.dc.html",
+    "BugBeatsTrilha.dc.html",
+    "BugBeatsVinil.dc.html",
+    "BugBeatsLinha.dc.html",
+    "MockupBugBeats.dc.html",
+    "MockupDeeprewind.dc.html",
+    "MockupMeltedrhythm.dc.html",
+    "Y2KBugBeats.dc.html",
+    "Y2KReelBugBeats.dc.html",
+    "Y2KDeeprewind.dc.html",
+    "Y2KReelDeeprewind.dc.html",
+    "Y2KMeltedrhythm.dc.html",
+    "Y2KReelMeltedrhythm.dc.html",
+    "IdPrancha.dc.html",
+    "IdPrincipal.dc.html",
+    "IdSelo.dc.html",
+    "IdCarimbo.dc.html",
+    "IdTipografico.dc.html",
+    "IdAvatar.dc.html",
+    "FlowDubocean.dc.html",
+    "FlowSecretdub.dc.html",
+    "FlowBugBeats.dc.html",
+    "FlowDuboceanAv.dc.html",
+    "FlowSecretdubAv.dc.html",
+    "FlowBugBeatsAv.dc.html",
+    "V3BugBeats.dc.html",
+    "V3BugBeatsAv.dc.html",
+    "V3BugBeatsNeg.dc.html",
+    "SecPal0.dc.html",
+    "SecPal1.dc.html",
+    "SecPal2.dc.html",
+    "SecPal3.dc.html",
+    "SecPal4.dc.html",
+    "SecPal5.dc.html",
+    "Sec2SecA.dc.html",
+    "Sec2SecB.dc.html",
+    "Sec2SecC.dc.html",
+    "V4B4Fones.dc.html",
+    "V4B4Vinil.dc.html",
+    "V4B4Play.dc.html",
+    "V4B4Sub.dc.html",
+    "V4B4Notas.dc.html",
+    "V4S4Censura.dc.html",
+    "V4S4WhiteLabel.dc.html",
+    "V4S4LadoOculto.dc.html",
+    "V4S4Voando.dc.html",
+    "FinBugPrancha.dc.html",
+    "FinBugV3.dc.html",
+    "FinBugV3Laranja.dc.html",
+    "FinBugV3Avatar.dc.html",
+    "FinBugPrincipal.dc.html",
+    "FinBugSelo.dc.html",
+    "FinBugCarimbo.dc.html",
+    "FinBugTipografico.dc.html",
+    "FinBugAvatar.dc.html",
+    "FinBugEco.dc.html",
+    "FinBugCabecaFones.dc.html",
+    "FinBugCabecaLowPoly.dc.html",
+    "FinBugTrilha.dc.html",
+    "FinSecEco.dc.html",
+    "FinSecVermelho.dc.html",
+    "FinSecMonocromo.dc.html",
+    "FinSecBracoS.dc.html",
+    "FinSonarMotion.dc.html",
+    "FinSubSignal.dc.html",
+    "FinLastdub.dc.html",
+    "EvBugSeloV3.dc.html",
+    "EvBugCabeca.dc.html",
+    "EvBugCabecaAv.dc.html",
+    "EvBugLowPoly.dc.html",
+    "EvBugHorizontal.dc.html",
+    "EvBugTrilhaBanner.dc.html",
+    "EvSecBracoMono.dc.html",
+    "EvSecBracoAv.dc.html",
+    "EvSecSelo.dc.html",
+    "EvSecBracoChave.dc.html",
+    "EvSonar.dc.html",
+    "EvSonarAv.dc.html",
+    "EvSubSignal.dc.html",
+    "EvSubSignalAv.dc.html",
+    "EvLastdub.dc.html",
+    "EvLastdubAv.dc.html",
+    "E2BugFlyer.dc.html",
+    "E2BugFlyerNoite.dc.html",
+    "E2BugFlyerAv.dc.html",
+    "E2SecDub.dc.html",
+    "E2SecDubAv.dc.html",
+    "E2SecS.dc.html",
+    "E2Sonar.dc.html",
+    "E2SubSignal.dc.html",
+    "E2Lastdub.dc.html",
+    "E3BugOlhosVinil.dc.html",
+    "E3BugOlhosVinilAv.dc.html",
+    "E3BugLowPolyRet.dc.html",
+    "E3BugColonia.dc.html",
+    "E4BugCurtindo.dc.html",
+    "E4BugCurtindoAv.dc.html",
+    "IgBugBeats.dc.html",
+    "IgSecretdub.dc.html",
+    "IgBugFlyer.dc.html",
+    "IgBugDJ.dc.html",
+    "IgBugLowPoly.dc.html",
+    "IgBugColonia.dc.html",
+    "IgBugV3.dc.html",
+    "IgBugSelo.dc.html",
+    "IgBugEco.dc.html",
+    "IgSecDub.dc.html",
+    "IgSecS.dc.html",
+    "IgSecEco.dc.html",
+    "IgSecVermelho.dc.html",
+    "IgSecMono.dc.html",
+    "IgSonar.dc.html",
+    "IgSubSignal.dc.html",
+    "IgLastdub.dc.html"
+  ],
+  "notes": {
+    "titulo": {
+      "x": 0,
+      "y": -300,
+      "text": "Primeira rodada",
+      "kind": "title1",
+      "maxW": 1520,
+      "w": 240,
+      "page": "rodadas"
+    },
+    "titulo2": {
+      "x": 1840,
+      "y": -300,
+      "text": "Segunda rodada: nomes de D&B",
+      "kind": "title1",
+      "maxW": 2320,
+      "w": 240,
+      "page": "rodadas"
+    },
+    "titulo3": {
+      "x": 0,
+      "y": 1680,
+      "text": "Terceira rodada: favoritos",
+      "kind": "title1",
+      "maxW": 3920,
+      "w": 240,
+      "page": "rodadas"
+    },
+    "titulo4": {
+      "x": 0,
+      "y": 3640,
+      "text": "Favoritos: versão selo",
+      "kind": "title1",
+      "maxW": 3920,
+      "w": 240,
+      "page": "rodadas"
+    },
+    "titulo5": {
+      "x": 0,
+      "y": 5600,
+      "text": "Tempocity e variações de cor",
+      "kind": "title1",
+      "maxW": 3920,
+      "w": 240,
+      "page": "rodadas"
+    },
+    "titulo7": {
+      "x": 0,
+      "y": 6720,
+      "text": "Bug Beats",
+      "kind": "title1",
+      "maxW": 3120,
+      "w": 240,
+      "page": "rodadas"
+    },
+    "titulo8": {
+      "x": 0,
+      "y": 7840,
+      "text": "Bug Beats: explorações da formiga",
+      "kind": "title1",
+      "maxW": 2320,
+      "w": 240,
+      "page": "rodadas"
+    },
+    "titulo9": {
+      "x": 0,
+      "y": 9840,
+      "text": "Teste visual: perfil e vídeo",
+      "kind": "title1",
+      "maxW": 2920,
+      "w": 240,
+      "page": "rodadas"
+    },
+    "titulo10": {
+      "x": 0,
+      "y": 11200,
+      "text": "Estilo anos 2000: 3D cromado de verdade, renderizado",
+      "kind": "title1",
+      "maxW": 4140,
+      "w": 240,
+      "page": "rodadas"
+    },
+    "titulo11": {
+      "x": 0,
+      "y": 12520,
+      "text": "Identidade visual Bug Beats: chapada, estilo selo",
+      "kind": "title1",
+      "maxW": 3920,
+      "w": 240,
+      "page": "rodadas"
+    },
+    "titulo12": {
+      "x": 0,
+      "y": 14920,
+      "text": "Flow: eco de dub, ondas e tipo inclinado",
+      "kind": "title1",
+      "maxW": 2320,
+      "w": 240,
+      "page": "rodadas"
+    },
+    "titulo13": {
+      "x": 0,
+      "y": 16820,
+      "text": "Bug Beats v3: movimento na forma",
+      "kind": "title1",
+      "maxW": 2320,
+      "w": 240,
+      "page": "rodadas"
+    },
+    "titulo14": {
+      "x": 0,
+      "y": 17900,
+      "text": "Secretdub: paletas",
+      "kind": "title1",
+      "maxW": 2320,
+      "w": 240,
+      "page": "rodadas"
+    },
+    "titulo15": {
+      "x": 0,
+      "y": 19820,
+      "text": "Secretdub repensado: o vinil em primeiro",
+      "kind": "title1",
+      "maxW": 2320,
+      "w": 240,
+      "page": "rodadas"
+    },
+    "titulo16": {
+      "kind": "title1",
+      "maxW": 3920,
+      "text": "Bug Beats: formiga ligada à música",
+      "w": 240,
+      "x": 0,
+      "y": 20820,
+      "page": "rodadas"
+    },
+    "titulo17": {
+      "kind": "title1",
+      "maxW": 3120,
+      "text": "Secretdub: outras variações",
+      "w": 240,
+      "x": 0,
+      "y": 21900,
+      "page": "rodadas"
+    },
+    "fin1": {
+      "x": 0,
+      "y": -300,
+      "text": "Bug Beats",
+      "kind": "title1",
+      "maxW": 4720,
+      "w": 240,
+      "page": "finalistas"
+    },
+    "fin2": {
+      "x": 0,
+      "y": 5160,
+      "text": "Secretdub",
+      "kind": "title1",
+      "maxW": 4720,
+      "w": 240,
+      "page": "finalistas"
+    },
+    "fin3": {
+      "x": 0,
+      "y": 7840,
+      "text": "Outros nomes: antes e depois",
+      "kind": "title1",
+      "maxW": 4720,
+      "w": 240,
+      "page": "finalistas"
+    },
+    "fin4": {
+      "x": 0,
+      "y": 2980,
+      "text": "Bug Beats: evolução",
+      "kind": "title1",
+      "maxW": 4720,
+      "w": 240,
+      "page": "finalistas"
+    },
+    "fin5": {
+      "x": 0,
+      "y": 6500,
+      "text": "Secretdub: evolução",
+      "kind": "title1",
+      "maxW": 4720,
+      "w": 240,
+      "page": "finalistas"
+    },
+    "titulo18": {
+      "x": 0,
+      "y": 23000,
+      "text": "Evolução genérica (descartada)",
+      "kind": "title1",
+      "maxW": 5520,
+      "w": 240,
+      "page": "rodadas"
+    },
+    "fin7": {
+      "x": 0,
+      "y": 26000,
+      "text": "Mockups Instagram (primeira versão)",
+      "kind": "title1",
+      "maxW": 2840,
+      "w": 240,
+      "page": "rodadas"
+    },
+    "ig1": {
+      "x": 0,
+      "y": -320,
+      "text": "Bug Beats no Instagram",
+      "kind": "title1",
+      "maxW": 4300,
+      "w": 240,
+      "page": "instagram"
+    },
+    "ig2": {
+      "x": 0,
+      "y": 3560,
+      "text": "Secretdub no Instagram",
+      "kind": "title1",
+      "maxW": 4300,
+      "w": 240,
+      "page": "instagram"
+    },
+    "ig3": {
+      "x": 0,
+      "y": 6320,
+      "text": "Outros nomes no Instagram",
+      "kind": "title1",
+      "maxW": 4300,
+      "w": 240,
+      "page": "instagram"
+    }
+  },
+  "designSystems": [],
+  "attachments": {},
+  "noteOrder": [
+    "titulo",
+    "titulo2",
+    "titulo3",
+    "titulo4",
+    "titulo5",
+    "titulo7",
+    "titulo8",
+    "titulo9",
+    "titulo10",
+    "titulo11",
+    "titulo12",
+    "titulo13",
+    "titulo14",
+    "titulo15",
+    "titulo16",
+    "titulo17",
+    "fin1",
+    "fin2",
+    "fin3",
+    "fin4",
+    "fin5",
+    "titulo18",
+    "fin7",
+    "ig1",
+    "ig2",
+    "ig3"
+  ]
+}

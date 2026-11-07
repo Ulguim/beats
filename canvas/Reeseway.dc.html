@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Reeseway</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Michroma&amp;family=Space+Grotesk:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 720px; height: 720px; box-sizing: border-box; background: {{bg}}; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 32px; font-family: 'Space Grotesk', sans-serif">
+<svg width="280" height="280" viewBox="0 0 280 280" role="img" aria-label="Símbolo Reeseway: estrada em perspectiva cuja faixa central é uma onda dente de serra">
+<line x1="60" y1="60" x2="220" y2="60" stroke="#3A5480" stroke-width="3" stroke-linecap="round"></line>
+<line x1="36" y1="250" x2="132" y2="60" stroke="#D6DDE6" stroke-width="7" stroke-linecap="round"></line>
+<line x1="244" y1="250" x2="148" y2="60" stroke="#D6DDE6" stroke-width="7" stroke-linecap="round"></line>
+<polyline points="140,250 116,212 140,212 121,178 140,178 126,150 140,150 130,128 140,128 133,110 140,110 135,96 140,96" fill="none" stroke="{{accent}}" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"></polyline>
+</svg>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 12px">
+<div style="font-family: 'Michroma', sans-serif; font-size: 36px; letter-spacing: 0.12em; color: #D6DDE6">REESE<span style="color: {{accent}}">WAY</span></div>
+<div style="font-size: 15px; letter-spacing: 0.18em; color: #8A97AB">DRUM &amp; BASS · LIQUID · 2000–2006</div>
+</div>
+<div style="display: flex; align-items: center; gap: 16px">
+<div style="width: 88px; height: 88px; border-radius: 50%; background: #121B2E; display: flex; align-items: center; justify-content: center">
+<svg width="60" height="60" viewBox="0 0 280 280" aria-hidden="true">
+<line x1="30" y1="260" x2="128" y2="40" stroke="#D6DDE6" stroke-width="18" stroke-linecap="round"></line>
+<line x1="250" y1="260" x2="152" y2="40" stroke="#D6DDE6" stroke-width="18" stroke-linecap="round"></line>
+<polyline points="140,250 110,190 140,190 120,140 140,140 128,100 140,100" fill="none" stroke="{{accent}}" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"></polyline>
+</svg>
+</div>
+<div style="font-size: 14px; color: #8A97AB">como foto de perfil</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#8FB4E8"},"bg":{"editor":"color","default":"#0B1220"},"$preview":{"width":720,"height":720}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#8FB4E8', bg: this.props.bg ?? '#0B1220' };
+}
+}
+</script>
+</body>
+</html>

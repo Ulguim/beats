@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Meltedrhythm</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Michroma&amp;family=Space+Grotesk:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 720px; height: 720px; box-sizing: border-box; background: {{bg}}; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 32px; font-family: 'Space Grotesk', sans-serif">
+<svg width="280" height="280" viewBox="0 0 280 280" role="img" aria-label="Símbolo Meltedrhythm">
+<path d="M70 70 L70 150" stroke="#D6DDE6" stroke-width="22" stroke-linecap="round"/><circle cx="70" cy="180" r="8" fill="#D6DDE6"/><path d="M110 70 L110 190" stroke="{{accent}}" stroke-width="22" stroke-linecap="round"/><circle cx="110" cy="220" r="8" fill="{{accent}}"/><path d="M150 70 L150 130" stroke="#D6DDE6" stroke-width="22" stroke-linecap="round"/><circle cx="150" cy="160" r="8" fill="#D6DDE6"/><path d="M190 70 L190 170" stroke="{{accent}}" stroke-width="22" stroke-linecap="round"/><circle cx="190" cy="200" r="8" fill="{{accent}}"/><path d="M230 70 L230 120" stroke="#6F93C9" stroke-width="22" stroke-linecap="round"/><circle cx="230" cy="150" r="8" fill="#6F93C9"/>
+</svg>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 12px">
+<div style="font-family: 'Michroma', sans-serif; font-size: 30px; letter-spacing: 0.12em; color: #D6DDE6">MELTED<span style="color: {{accent}}">RHYTHM</span></div>
+<div style="font-size: 15px; letter-spacing: 0.18em; color: #8A97AB">DRUM &amp; BASS · LIQUID · 2000–2006</div>
+</div>
+<div style="display: flex; align-items: center; gap: 16px">
+<div style="width: 88px; height: 88px; border-radius: 50%; background: #121B2E; display: flex; align-items: center; justify-content: center">
+<svg width="60" height="60" viewBox="0 0 280 280" aria-hidden="true">
+<path d="M70 70 L70 150" stroke="#D6DDE6" stroke-width="25.2" stroke-linecap="round"/><circle cx="70" cy="180" r="9.6" fill="#D6DDE6"/><path d="M110 70 L110 190" stroke="{{accent}}" stroke-width="25.2" stroke-linecap="round"/><circle cx="110" cy="220" r="9.6" fill="{{accent}}"/><path d="M150 70 L150 130" stroke="#D6DDE6" stroke-width="25.2" stroke-linecap="round"/><circle cx="150" cy="160" r="9.6" fill="#D6DDE6"/><path d="M190 70 L190 170" stroke="{{accent}}" stroke-width="25.2" stroke-linecap="round"/><circle cx="190" cy="200" r="9.6" fill="{{accent}}"/><path d="M230 70 L230 120" stroke="#6F93C9" stroke-width="25.2" stroke-linecap="round"/><circle cx="230" cy="150" r="9.6" fill="#6F93C9"/>
+</svg>
+</div>
+<div style="font-size: 14px; color: #8A97AB">como foto de perfil</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#8FB4E8"},"bg":{"editor":"color","default":"#0B1220"},"$preview":{"width":720,"height":720}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#8FB4E8', bg: this.props.bg ?? '#0B1220' };
+}
+}
+</script>
+</body>
+</html>

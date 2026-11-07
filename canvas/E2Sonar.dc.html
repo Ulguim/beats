@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>SonarMotion · radar no O</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&amp;family=Silkscreen&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 720px; height: 720px; overflow: hidden; background: {{paper}}">
+<svg width="720" height="720" viewBox="0 0 720 720"><rect width="720" height="720" fill="{{paper}}"/><text x="134.29125" y="300" font-family="Russo One, sans-serif" font-size="118" fill="{{ink}}">S</text><circle cx="272.09375" cy="257.52" r="50.74" fill="{{ink}}"/><circle cx="272.09375" cy="257.52" r="17.759" fill="none" stroke="{{paper}}" stroke-width="3"/><circle cx="272.09375" cy="257.52" r="32.981" fill="none" stroke="{{paper}}" stroke-width="3"/><path d="M272.09375 257.52 L272.09375 206.77999999999997 A50.74 50.74 0 0 1 316.23755 232.14999999999998 Z" fill="{{accent}}"/><circle cx="292.38975" cy="232.14999999999998" r="6" fill="{{paper}}"/><text x="330.83375" y="300" font-family="Russo One, sans-serif" font-size="118" fill="{{ink}}">NAR</text>
+<text x="360" y="420" text-anchor="middle" font-family="Russo One, sans-serif" font-size="118" fill="{{accent}}">MOTION</text><text x="360" y="500" text-anchor="middle" font-family="Silkscreen, monospace" font-size="18" letter-spacing="7" fill="{{ink}}">DRUM N BASS · LIQUID</text><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="720" height="720" filter="url(#grain)" opacity="0.1" style="mix-blend-mode: multiply"/></svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"ink":{"editor":"color","default":"#111111"},"accent":{"editor":"color","default":"#F2A13B"},"paper":{"editor":"color","default":"#EDE6DA"},"red":{"editor":"color","default":"#C8322B"},"$preview":{"width":720,"height":720}}'>
+class Component extends DCLogic {
+renderVals() {
+return { ink: this.props.ink ?? '#111111', accent: this.props.accent ?? '#F2A13B', paper: this.props.paper ?? '#EDE6DA', red: this.props.red ?? '#C8322B' };
+}
+}
+</script>
+</body>
+</html>

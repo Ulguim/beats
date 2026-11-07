@@ -1,0 +1,38 @@
+<!doctype html>
+<!--
+  ANIMAÇÃO EDITÁVEL: bugbeats-flyer-reticula
+  Abra este arquivo no Chrome ou Firefox: a animação toca sozinha em loop.
+  - BPM: troque o valor de BPM logo abaixo (padrão 174).
+  - Cores: use "localizar e substituir" no editor de texto:
+      #111111 preto  ·  #F2A13B laranja  ·  #EDE6DA creme  ·  #C8322B vermelho
+  - Textos: procure o texto (ex.: "@bugbeats" ou "DRUM N BASS") e edite direto.
+  - O movimento fica na função window.setT, no fim do arquivo: ela recebe a batida atual
+    (0 a 16) e mexe nos elementos. kick(b) é um pulso que cai a cada batida.
+  - Para gerar o MP4 de novo, veja o LEIA-ME.txt.
+-->
+<html><head><meta charset="utf-8"><style>@font-face{font-family:'Russo One';src:url(fontes/RussoOne-Regular.ttf)}@font-face{font-family:'Silkscreen';src:url(fontes/Silkscreen-Regular.ttf)}body{margin:0;background:#F2A13B}</style></head><body>
+<svg id="root" width="1080" height="1920" viewBox="0 0 1080 1920">
+<rect width="1080" height="1920" fill="#F2A13B"/>
+<text x="540" y="200" text-anchor="middle" font-family="Silkscreen, monospace" font-size="34" letter-spacing="12" fill="#111111">@bugbeats</text>
+<g transform="translate(0 420) scale(1.5)"><rect width="720" height="720" fill="#F2A13B"/><defs><mask id="m"><rect width="720" height="720" fill="#000"/><g id="dots"></g></mask></defs>
+<g transform="translate(-40 40) scale(1.25)" mask="url(#m)"><g><polyline points="318,262 362,302 312,354" fill="none" stroke="#111111" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/><polyline points="362,256 408,298 356,353" fill="none" stroke="#111111" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/><polyline points="404,246 452,290 397,347" fill="none" stroke="#111111" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M60.0 214.0 L206.7 177.9 A64 64 0 1 1 188.0 294.2 Z" fill="#111111"/>
+<path d="M286.0 232.0 L351.1 197.7 A32 32 0 1 1 355.5 256.2 Z" fill="#111111"/>
+<path d="M392.0 212.0 L431.2 173.0 A38 38 0 1 1 442.4 234.7 Z" fill="#111111"/>
+<path d="M490 206 Q516 206 520 218 Q506 214 492 218 Z" fill="#111111"/><path d="M490 222 Q512 226 514 238 Q502 230 488 230 Z" fill="#111111"/>
+<path d="M452 166 Q432 104 352 96" fill="none" stroke="#111111" stroke-width="11" stroke-linecap="round"/>
+<path d="M470 168 Q466 92 396 66" fill="none" stroke="#111111" stroke-width="11" stroke-linecap="round"/>
+</g></g>
+<text x="40" y="560" font-family="Russo One, sans-serif" font-size="150" letter-spacing="-2" fill="#111111" transform="skewX(-8) translate(80 0)">BUG</text>
+<text x="40" y="680" font-family="Russo One, sans-serif" font-size="150" letter-spacing="-2" fill="#EDE6DA" transform="skewX(-8) translate(96 0)">BEATS</text></g>
+<text x="540" y="1700" text-anchor="middle" font-family="Silkscreen, monospace" font-size="28" letter-spacing="10" fill="#111111">DRUM N BASS · 2000-2006</text>
+</svg>
+<script>
+const frac=x=>x-Math.floor(x); const kick=b=>Math.exp(-4*frac(b));
+const NS='http://www.w3.org/2000/svg',D=[],P=11,g=document.getElementById('dots');
+for(let j=0,y=0;y<720;y+=P,j++)for(let x=0;x<720;x+=P){const c=document.createElementNS(NS,'circle');const cx=x+(j%2?P/2:0);c.setAttribute('cx',cx);c.setAttribute('cy',y);c.setAttribute('fill','#fff');g.appendChild(c);D.push([c,cx]);}
+window.setT=b=>{for(const [c,x] of D){const t=x/720;const base=0.8+P*0.48*(1-t);const ph=kick(b-t*0.9);c.setAttribute('r',(base*(0.75+0.45*ph)).toFixed(2));}};
+window.ready=true;
+const BPM=174;
+if(!navigator.webdriver){const t0=performance.now();const loop=now=>{window.setT(((now-t0)/1000*BPM/60)%16);requestAnimationFrame(loop);};requestAnimationFrame(loop);}
+</script></body></html>

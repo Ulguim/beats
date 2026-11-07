@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Secretdub · avatar D de vinil</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&amp;family=Silkscreen&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 720px; height: 720px; overflow: hidden; background: {{paper}}">
+<svg width="720" height="720" viewBox="0 0 720 720"><rect width="720" height="720" fill="{{paper}}"/><g transform="translate(360 330) scale(1.15) translate(-150 -330)"><path d="M80 200 h40 a130 130 0 0 1 0 260 h-40 Z" fill="{{ink}}"/><clipPath id="cdA"><path d="M80 200 h40 a130 130 0 0 1 0 260 h-40 Z"/></clipPath><g clip-path="url(#cdA)"><circle cx="120" cy="330" r="58" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="120" cy="330" r="66" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="120" cy="330" r="74" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="120" cy="330" r="82" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="120" cy="330" r="90" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="120" cy="330" r="98" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="120" cy="330" r="106" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="120" cy="330" r="114" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="120" cy="330" r="122" fill="none" stroke="#3c3c3c" stroke-width="2"/></g><path d="M120 288 a42 42 0 0 1 0 84 Z" fill="{{red}}"/></g><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="720" height="720" filter="url(#grain)" opacity="0.1" style="mix-blend-mode: multiply"/></svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"ink":{"editor":"color","default":"#111111"},"accent":{"editor":"color","default":"#F2A13B"},"paper":{"editor":"color","default":"#EDE6DA"},"red":{"editor":"color","default":"#C8322B"},"$preview":{"width":720,"height":720}}'>
+class Component extends DCLogic {
+renderVals() {
+return { ink: this.props.ink ?? '#111111', accent: this.props.accent ?? '#F2A13B', paper: this.props.paper ?? '#EDE6DA', red: this.props.red ?? '#C8322B' };
+}
+}
+</script>
+</body>
+</html>

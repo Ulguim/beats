@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Lastdub · D de arcos</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&amp;family=Silkscreen&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 720px; height: 720px; overflow: hidden; background: {{paper}}">
+<svg width="720" height="720" viewBox="0 0 720 720"><rect width="720" height="720" fill="{{paper}}"/><text x="360" y="250" text-anchor="middle" font-family="Russo One, sans-serif" font-size="120" letter-spacing="10" fill="{{ink}}">LAST</text>
+<g transform="translate(150 290)"><rect x="0" y="0" width="34" height="200" fill="{{ink}}"/><path d="M34 4 A96 96 0 0 1 34 196" fill="none" stroke="{{ink}}" stroke-width="10"/><path d="M34 24 A76 76 0 0 1 34 176" fill="none" stroke="{{ink}}" stroke-width="14"/><path d="M34 46 A54 54 0 0 1 34 154" fill="none" stroke="{{ink}}" stroke-width="18"/><path d="M34 70 A30 30 0 0 1 34 130" fill="none" stroke="{{ink}}" stroke-width="22"/><circle cx="38" cy="100" r="9" fill="{{accent}}"/></g>
+<text x="300" y="470" font-family="Russo One, sans-serif" font-size="200" fill="{{accent}}">UB</text><text x="360" y="560" text-anchor="middle" font-family="Silkscreen, monospace" font-size="18" letter-spacing="7" fill="{{ink}}">DRUM N BASS · LIQUID</text><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="720" height="720" filter="url(#grain)" opacity="0.1" style="mix-blend-mode: multiply"/></svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"ink":{"editor":"color","default":"#111111"},"accent":{"editor":"color","default":"#F2A13B"},"paper":{"editor":"color","default":"#EDE6DA"},"red":{"editor":"color","default":"#C8322B"},"$preview":{"width":720,"height":720}}'>
+class Component extends DCLogic {
+renderVals() {
+return { ink: this.props.ink ?? '#111111', accent: this.props.accent ?? '#F2A13B', paper: this.props.paper ?? '#EDE6DA', red: this.props.red ?? '#C8322B' };
+}
+}
+</script>
+</body>
+</html>

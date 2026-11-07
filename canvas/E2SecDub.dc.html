@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Secretdub · DUB em vinil</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&amp;family=Silkscreen&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 720px; height: 720px; overflow: hidden; background: {{paper}}">
+<svg width="720" height="720" viewBox="0 0 720 720"><rect width="720" height="720" fill="{{paper}}"/><text x="360" y="160" text-anchor="middle" font-family="Russo One, sans-serif" font-size="58" letter-spacing="30" fill="{{ink}}">SECRET</text>
+<g transform="translate(26 0)"><path d="M80 200 h40 a130 130 0 0 1 0 260 h-40 Z" fill="{{ink}}"/><clipPath id="cd"><path d="M80 200 h40 a130 130 0 0 1 0 260 h-40 Z"/></clipPath><g clip-path="url(#cd)"><circle cx="120" cy="330" r="58" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="120" cy="330" r="66" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="120" cy="330" r="74" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="120" cy="330" r="82" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="120" cy="330" r="90" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="120" cy="330" r="98" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="120" cy="330" r="106" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="120" cy="330" r="114" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="120" cy="330" r="122" fill="none" stroke="#3c3c3c" stroke-width="2"/></g><path d="M120 288 a42 42 0 0 1 0 84 Z" fill="{{red}}"/><path d="M300 200 V380 a60 60 0 0 0 120 0 V200" fill="none" stroke="{{ink}}" stroke-width="44" stroke-linecap="butt"/><path d="M300 200 V380 a60 60 0 0 0 120 0 V200" fill="none" stroke="{{paper}}" stroke-width="12"/><rect x="398" y="186" width="44" height="26" fill="{{red}}"/><path d="M480 200 h30 a62 62 0 0 1 0 124 h-30 Z" fill="{{ink}}"/><path d="M480 324 h30 a68 68 0 0 1 0 136 h-30 Z" fill="{{ink}}"/><clipPath id="cb1"><path d="M480 200 h30 a62 62 0 0 1 0 124 h-30 Z"/></clipPath><g clip-path="url(#cb1)"><circle cx="510" cy="262" r="27" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="510" cy="262" r="35" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="510" cy="262" r="43" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="510" cy="262" r="51" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="510" cy="262" r="59" fill="none" stroke="#3c3c3c" stroke-width="2"/></g><clipPath id="cb2"><path d="M480 324 h30 a68 68 0 0 1 0 136 h-30 Z"/></clipPath><g clip-path="url(#cb2)"><circle cx="510" cy="392" r="30" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="510" cy="392" r="38" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="510" cy="392" r="46" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="510" cy="392" r="54" fill="none" stroke="#3c3c3c" stroke-width="2"/><circle cx="510" cy="392" r="62" fill="none" stroke="#3c3c3c" stroke-width="2"/></g><path d="M510 242 a20 20 0 0 1 0 40 Z" fill="{{red}}"/><path d="M510 370 a22 22 0 0 1 0 44 Z" fill="{{red}}"/></g><text x="360" y="560" text-anchor="middle" font-family="Silkscreen, monospace" font-size="18" letter-spacing="7" fill="{{ink}}">DUBPLATE · DRUM N BASS · LIQUID</text><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="720" height="720" filter="url(#grain)" opacity="0.1" style="mix-blend-mode: multiply"/></svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"ink":{"editor":"color","default":"#111111"},"accent":{"editor":"color","default":"#F2A13B"},"paper":{"editor":"color","default":"#EDE6DA"},"red":{"editor":"color","default":"#C8322B"},"$preview":{"width":720,"height":720}}'>
+class Component extends DCLogic {
+renderVals() {
+return { ink: this.props.ink ?? '#111111', accent: this.props.accent ?? '#F2A13B', paper: this.props.paper ?? '#EDE6DA', red: this.props.red ?? '#C8322B' };
+}
+}
+</script>
+</body>
+</html>
