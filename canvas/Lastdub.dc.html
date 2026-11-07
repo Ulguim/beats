@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Lastdub</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Michroma&amp;family=Space+Grotesk:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 720px; height: 720px; box-sizing: border-box; background: {{bg}}; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 32px; font-family: 'Space Grotesk', sans-serif">
+<svg width="280" height="280" viewBox="0 0 280 280" role="img" aria-label="Símbolo Lastdub">
+<path d="M40 170 A100 100 0 0 1 240 170" fill="none" stroke="#D6DDE6" stroke-opacity="0.2" stroke-width="7" stroke-linecap="round"/><path d="M60 170 A80 80 0 0 1 220 170" fill="none" stroke="#D6DDE6" stroke-opacity="0.4" stroke-width="7" stroke-linecap="round"/><path d="M80 170 A60 60 0 0 1 200 170" fill="none" stroke="#D6DDE6" stroke-opacity="0.65" stroke-width="7" stroke-linecap="round"/><path d="M100 170 A40 40 0 0 1 180 170" fill="none" stroke="#D6DDE6" stroke-opacity="0.9" stroke-width="7" stroke-linecap="round"/><circle cx="140" cy="170" r="13" fill="{{accent}}"/>
+</svg>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 12px">
+<div style="font-family: 'Michroma', sans-serif; font-size: 36px; letter-spacing: 0.12em; color: #D6DDE6">LAST<span style="color: {{accent}}">DUB</span></div>
+<div style="font-size: 15px; letter-spacing: 0.18em; color: #8A97AB">DRUM &amp; BASS · LIQUID · 2000–2006</div>
+</div>
+<div style="display: flex; align-items: center; gap: 16px">
+<div style="width: 88px; height: 88px; border-radius: 50%; background: #121B2E; display: flex; align-items: center; justify-content: center">
+<svg width="60" height="60" viewBox="0 0 280 280" aria-hidden="true">
+<path d="M40 170 A100 100 0 0 1 240 170" fill="none" stroke="#D6DDE6" stroke-opacity="0.2" stroke-width="12.6" stroke-linecap="round"/><path d="M60 170 A80 80 0 0 1 220 170" fill="none" stroke="#D6DDE6" stroke-opacity="0.4" stroke-width="12.6" stroke-linecap="round"/><path d="M80 170 A60 60 0 0 1 200 170" fill="none" stroke="#D6DDE6" stroke-opacity="0.65" stroke-width="12.6" stroke-linecap="round"/><path d="M100 170 A40 40 0 0 1 180 170" fill="none" stroke="#D6DDE6" stroke-opacity="0.9" stroke-width="12.6" stroke-linecap="round"/><circle cx="140" cy="170" r="15.4" fill="{{accent}}"/>
+</svg>
+</div>
+<div style="font-size: 14px; color: #8A97AB">como foto de perfil</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#8FB4E8"},"bg":{"editor":"color","default":"#0B1220"},"$preview":{"width":720,"height":720}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#8FB4E8', bg: this.props.bg ?? '#0B1220' };
+}
+}
+</script>
+</body>
+</html>

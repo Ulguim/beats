@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>ReeseRush</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Michroma&amp;family=Space+Grotesk:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 720px; height: 720px; box-sizing: border-box; background: {{bg}}; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 32px; font-family: 'Space Grotesk', sans-serif">
+<svg width="280" height="280" viewBox="0 0 280 280" role="img" aria-label="Símbolo ReeseRush: três ondas dente de serra levemente desalinhadas, como o baixo reese desafinado, avançando para frente">
+<path d="M14 196 L64 124 L64 196 L114 124 L114 196 L164 124 L164 196 L214 124 L214 196" fill="none" stroke="#3A5480" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"></path>
+<path d="M28 186 L78 114 L78 186 L128 114 L128 186 L178 114 L178 186 L228 114 L228 186" fill="none" stroke="{{accent}}" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"></path>
+<path d="M42 176 L92 104 L92 176 L142 104 L142 176 L192 104 L192 176 L242 104 L242 176" fill="none" stroke="#D6DDE6" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"></path>
+</svg>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 12px">
+<div style="font-family: 'Michroma', sans-serif; font-size: 36px; letter-spacing: 0.12em; color: #D6DDE6">REESE<span style="color: {{accent}}">RUSH</span></div>
+<div style="font-size: 15px; letter-spacing: 0.18em; color: #8A97AB">DRUM &amp; BASS · LIQUID · 2000–2006</div>
+</div>
+<div style="display: flex; align-items: center; gap: 16px">
+<div style="width: 88px; height: 88px; border-radius: 50%; background: #121B2E; display: flex; align-items: center; justify-content: center">
+<svg width="60" height="60" viewBox="0 0 280 280" aria-hidden="true">
+<path d="M20 200 L90 110 L90 200 L160 110 L160 200" fill="none" stroke="#3A5480" stroke-width="18" stroke-linejoin="round" stroke-linecap="round"></path>
+<path d="M60 180 L130 90 L130 180 L200 90 L200 180" fill="none" stroke="{{accent}}" stroke-width="18" stroke-linejoin="round" stroke-linecap="round"></path>
+<path d="M100 160 L170 70 L170 160 L240 70 L240 160" fill="none" stroke="#D6DDE6" stroke-width="18" stroke-linejoin="round" stroke-linecap="round"></path>
+</svg>
+</div>
+<div style="font-size: 14px; color: #8A97AB">como foto de perfil</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#8FB4E8"},"bg":{"editor":"color","default":"#0B1220"},"$preview":{"width":720,"height":720}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#8FB4E8', bg: this.props.bg ?? '#0B1220' };
+}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>BugBeatsLowPoly</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Michroma&amp;family=Space+Grotesk:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 720px; height: 720px; box-sizing: border-box; background: {{bg}}; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 26px; font-family: 'Space Grotesk', sans-serif">
+<svg width="340" height="340" viewBox="0 0 280 280" role="img" aria-label="Símbolo BugBeatsLowPoly">
+<polyline points="118,70 100,34 70,26" fill="none" stroke="#D6DDE6" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="162,70 180,34 210,26" fill="none" stroke="#D6DDE6" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="140,146 140,64 196,84" fill="#D6DDE6" stroke="#0B1220" stroke-width="1.5" stroke-linejoin="round"/><polygon points="140,146 196,84 214,140" fill="#B5CCEE" stroke="#0B1220" stroke-width="1.5" stroke-linejoin="round"/><polygon points="140,146 214,140 196,196" fill="#8FB4E8" stroke="#0B1220" stroke-width="1.5" stroke-linejoin="round"/><polygon points="140,146 196,196 140,218" fill="#6F93C9" stroke="#0B1220" stroke-width="1.5" stroke-linejoin="round"/><polygon points="140,146 140,218 84,196" fill="#B5CCEE" stroke="#0B1220" stroke-width="1.5" stroke-linejoin="round"/><polygon points="140,146 84,196 66,140" fill="#D6DDE6" stroke="#0B1220" stroke-width="1.5" stroke-linejoin="round"/><polygon points="140,146 66,140 84,84" fill="#8FB4E8" stroke="#0B1220" stroke-width="1.5" stroke-linejoin="round"/><polygon points="140,146 84,84 140,64" fill="#6F93C9" stroke="#0B1220" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="84,112 116,124 104,168 78,150" fill="#0B1220"/><polygon points="196,112 164,124 176,168 202,150" fill="#0B1220"/>
+<polygon points="92,126 102,130 96,140" fill="{{accent}}"/><polygon points="188,126 178,130 184,140" fill="{{accent}}"/>
+<polygon points="122,210 108,246 134,232" fill="{{accent}}"/><polygon points="158,210 172,246 146,232" fill="{{accent}}"/>
+</svg>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 12px">
+<div style="font-family: 'Michroma', sans-serif; font-size: 36px; letter-spacing: 0.12em; color: #D6DDE6">BUG<span style="color: {{accent}}">BEATS</span></div>
+<div style="font-size: 15px; letter-spacing: 0.18em; color: #8A97AB">DRUM &amp; BASS · LIQUID · 2000–2006</div>
+</div>
+<div style="display: flex; align-items: center; gap: 16px">
+<div style="width: 88px; height: 88px; border-radius: 50%; background: #121B2E; display: flex; align-items: center; justify-content: center">
+<svg width="60" height="60" viewBox="0 0 280 280" aria-hidden="true">
+<polyline points="118,70 100,34 70,26" fill="none" stroke="#D6DDE6" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="162,70 180,34 210,26" fill="none" stroke="#D6DDE6" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="140,146 140,64 196,84" fill="#D6DDE6" stroke="#0B1220" stroke-width="1.5" stroke-linejoin="round"/><polygon points="140,146 196,84 214,140" fill="#B5CCEE" stroke="#0B1220" stroke-width="1.5" stroke-linejoin="round"/><polygon points="140,146 214,140 196,196" fill="#8FB4E8" stroke="#0B1220" stroke-width="1.5" stroke-linejoin="round"/><polygon points="140,146 196,196 140,218" fill="#6F93C9" stroke="#0B1220" stroke-width="1.5" stroke-linejoin="round"/><polygon points="140,146 140,218 84,196" fill="#B5CCEE" stroke="#0B1220" stroke-width="1.5" stroke-linejoin="round"/><polygon points="140,146 84,196 66,140" fill="#D6DDE6" stroke="#0B1220" stroke-width="1.5" stroke-linejoin="round"/><polygon points="140,146 66,140 84,84" fill="#8FB4E8" stroke="#0B1220" stroke-width="1.5" stroke-linejoin="round"/><polygon points="140,146 84,84 140,64" fill="#6F93C9" stroke="#0B1220" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="84,112 116,124 104,168 78,150" fill="#0B1220"/><polygon points="196,112 164,124 176,168 202,150" fill="#0B1220"/>
+<polygon points="92,126 102,130 96,140" fill="{{accent}}"/><polygon points="188,126 178,130 184,140" fill="{{accent}}"/>
+<polygon points="122,210 108,246 134,232" fill="{{accent}}"/><polygon points="158,210 172,246 146,232" fill="{{accent}}"/>
+</svg>
+</div>
+<div style="font-size: 14px; color: #8A97AB">como foto de perfil</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#8FB4E8"},"bg":{"editor":"color","default":"#0B1220"},"$preview":{"width":720,"height":720}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#8FB4E8', bg: this.props.bg ?? '#0B1220' };
+}
+}
+</script>
+</body>
+</html>

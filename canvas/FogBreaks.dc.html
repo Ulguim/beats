@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>FogBreaks</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Michroma&amp;family=Space+Grotesk:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 720px; height: 720px; box-sizing: border-box; background: {{bg}}; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 32px; font-family: 'Space Grotesk', sans-serif">
+<svg width="280" height="280" viewBox="0 0 280 280" role="img" aria-label="Símbolo FogBreaks: faixas horizontais de névoa com quebras em pontos diferentes, como um ritmo quebrado">
+<line x1="40" y1="70" x2="150" y2="70" stroke="#D6DDE6" stroke-width="10" stroke-linecap="round"></line>
+<line x1="180" y1="70" x2="240" y2="70" stroke="#D6DDE6" stroke-width="10" stroke-linecap="round"></line>
+<line x1="60" y1="100" x2="110" y2="100" stroke="#B5CCEE" stroke-width="10" stroke-linecap="round"></line>
+<line x1="140" y1="100" x2="250" y2="100" stroke="#B5CCEE" stroke-width="10" stroke-linecap="round"></line>
+<line x1="30" y1="130" x2="190" y2="130" stroke="{{accent}}" stroke-width="10" stroke-linecap="round"></line>
+<line x1="220" y1="130" x2="250" y2="130" stroke="{{accent}}" stroke-width="10" stroke-linecap="round"></line>
+<line x1="50" y1="160" x2="90" y2="160" stroke="#6F93C9" stroke-width="10" stroke-linecap="round"></line>
+<line x1="120" y1="160" x2="230" y2="160" stroke="#6F93C9" stroke-width="10" stroke-linecap="round"></line>
+<line x1="40" y1="190" x2="160" y2="190" stroke="#4E6E9E" stroke-width="10" stroke-linecap="round"></line>
+<line x1="190" y1="190" x2="240" y2="190" stroke="#4E6E9E" stroke-width="10" stroke-linecap="round"></line>
+<line x1="70" y1="220" x2="130" y2="220" stroke="#3A5480" stroke-width="10" stroke-linecap="round"></line>
+<line x1="160" y1="220" x2="220" y2="220" stroke="#3A5480" stroke-width="10" stroke-linecap="round"></line>
+</svg>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 12px">
+<div style="font-family: 'Michroma', sans-serif; font-size: 36px; letter-spacing: 0.12em; color: #D6DDE6">FOG<span style="color: {{accent}}">BREAKS</span></div>
+<div style="font-size: 15px; letter-spacing: 0.18em; color: #8A97AB">DRUM &amp; BASS · LIQUID · 2000–2006</div>
+</div>
+<div style="display: flex; align-items: center; gap: 16px">
+<div style="width: 88px; height: 88px; border-radius: 50%; background: #121B2E; display: flex; align-items: center; justify-content: center">
+<svg width="60" height="60" viewBox="0 0 280 280" aria-hidden="true">
+<line x1="40" y1="80" x2="150" y2="80" stroke="#D6DDE6" stroke-width="24" stroke-linecap="round"></line>
+<line x1="190" y1="80" x2="240" y2="80" stroke="#D6DDE6" stroke-width="24" stroke-linecap="round"></line>
+<line x1="40" y1="140" x2="90" y2="140" stroke="{{accent}}" stroke-width="24" stroke-linecap="round"></line>
+<line x1="130" y1="140" x2="240" y2="140" stroke="{{accent}}" stroke-width="24" stroke-linecap="round"></line>
+<line x1="40" y1="200" x2="170" y2="200" stroke="#4E6E9E" stroke-width="24" stroke-linecap="round"></line>
+<line x1="210" y1="200" x2="240" y2="200" stroke="#4E6E9E" stroke-width="24" stroke-linecap="round"></line>
+</svg>
+</div>
+<div style="font-size: 14px; color: #8A97AB">como foto de perfil</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#8FB4E8"},"bg":{"editor":"color","default":"#0B1220"},"$preview":{"width":720,"height":720}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#8FB4E8', bg: this.props.bg ?? '#0B1220' };
+}
+}
+</script>
+</body>
+</html>

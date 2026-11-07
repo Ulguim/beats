@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>BugBeatsCabeca</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Michroma&amp;family=Space+Grotesk:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 720px; height: 720px; box-sizing: border-box; background: {{bg}}; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 26px; font-family: 'Space Grotesk', sans-serif">
+<svg width="340" height="340" viewBox="0 0 280 280" role="img" aria-label="Símbolo BugBeatsCabeca">
+<path d="M120 70 L104 40 L78 34 M160 70 L176 40 L202 34" fill="none" stroke="#D6DDE6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="78" cy="34" r="7" fill="{{accent}}"/><circle cx="202" cy="34" r="7" fill="{{accent}}"/>
+<path d="M62 150 A78 78 0 0 1 218 150" fill="none" stroke="#4E6E9E" stroke-width="12" stroke-linecap="round"/>
+<path d="M140 70 C200 70 214 120 206 160 C198 200 172 214 140 214 C108 214 82 200 74 160 C66 120 80 70 140 70 Z" fill="#D6DDE6"/>
+<ellipse cx="102" cy="140" rx="17" ry="24" transform="rotate(15 102 140)" fill="#0B1220"/>
+<ellipse cx="178" cy="140" rx="17" ry="24" transform="rotate(-15 178 140)" fill="#0B1220"/>
+<circle cx="97" cy="132" r="5" fill="{{accent}}"/><circle cx="173" cy="132" r="5" fill="{{accent}}"/>
+<path d="M124 206 Q112 236 132 250 Q126 232 140 214 Z M156 206 Q168 236 148 250 Q154 232 140 214 Z" fill="#D6DDE6"/>
+<rect x="44" y="130" width="28" height="52" rx="12" fill="{{accent}}"/><rect x="208" y="130" width="28" height="52" rx="12" fill="{{accent}}"/>
+</svg>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 12px">
+<div style="font-family: 'Michroma', sans-serif; font-size: 36px; letter-spacing: 0.12em; color: #D6DDE6">BUG<span style="color: {{accent}}">BEATS</span></div>
+<div style="font-size: 15px; letter-spacing: 0.18em; color: #8A97AB">DRUM &amp; BASS · LIQUID · 2000–2006</div>
+</div>
+<div style="display: flex; align-items: center; gap: 16px">
+<div style="width: 88px; height: 88px; border-radius: 50%; background: #121B2E; display: flex; align-items: center; justify-content: center">
+<svg width="60" height="60" viewBox="0 0 280 280" aria-hidden="true">
+<path d="M120 70 L104 40 L78 34 M160 70 L176 40 L202 34" fill="none" stroke="#D6DDE6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="78" cy="34" r="7" fill="{{accent}}"/><circle cx="202" cy="34" r="7" fill="{{accent}}"/>
+<path d="M62 150 A78 78 0 0 1 218 150" fill="none" stroke="#4E6E9E" stroke-width="12" stroke-linecap="round"/>
+<path d="M140 70 C200 70 214 120 206 160 C198 200 172 214 140 214 C108 214 82 200 74 160 C66 120 80 70 140 70 Z" fill="#D6DDE6"/>
+<ellipse cx="102" cy="140" rx="17" ry="24" transform="rotate(15 102 140)" fill="#0B1220"/>
+<ellipse cx="178" cy="140" rx="17" ry="24" transform="rotate(-15 178 140)" fill="#0B1220"/>
+<circle cx="97" cy="132" r="5" fill="{{accent}}"/><circle cx="173" cy="132" r="5" fill="{{accent}}"/>
+<path d="M124 206 Q112 236 132 250 Q126 232 140 214 Z M156 206 Q168 236 148 250 Q154 232 140 214 Z" fill="#D6DDE6"/>
+<rect x="44" y="130" width="28" height="52" rx="12" fill="{{accent}}"/><rect x="208" y="130" width="28" height="52" rx="12" fill="{{accent}}"/>
+</svg>
+</div>
+<div style="font-size: 14px; color: #8A97AB">como foto de perfil</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#8FB4E8"},"bg":{"editor":"color","default":"#0B1220"},"$preview":{"width":720,"height":720}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#8FB4E8', bg: this.props.bg ?? '#0B1220' };
+}
+}
+</script>
+</body>
+</html>

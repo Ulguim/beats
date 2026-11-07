@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>BugBeats selo</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&amp;family=Space+Grotesk:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 720px; height: 720px; box-sizing: border-box; background: {{bg}}; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 28px; font-family: 'Space Grotesk', sans-serif">
+<svg width="400" height="400" viewBox="0 0 320 320" role="img" aria-label="Selo BugBeats">
+<defs>
+<path id="top" d="M32 160 A128 128 0 0 1 288 160"/>
+<path id="bot" d="M18 160 A142 142 0 0 0 302 160"/>
+</defs>
+<circle cx="160" cy="160" r="154" fill="none" stroke="{{accent}}" stroke-width="4"/>
+<circle cx="160" cy="160" r="104" fill="#121B2E" stroke="#2A3D5E" stroke-width="2"/>
+<text font-family="Syncopate, sans-serif" font-weight="700" font-size="20" letter-spacing="5" fill="#D6DDE6"><textPath href="#top" startOffset="50%" text-anchor="middle">BUGBEATS</textPath></text>
+<text font-family="Space Grotesk, sans-serif" font-size="12" letter-spacing="4" fill="#8A97AB"><textPath href="#bot" startOffset="50%" text-anchor="middle">DRUM &amp; BASS · LIQUID · BREAKS</textPath></text>
+<circle cx="22" cy="160" r="4" fill="{{accent}}"/><circle cx="298" cy="160" r="4" fill="{{accent}}"/>
+<g transform="translate(160 160) scale(0.62) translate(-140 -140)">
+<path d="M18 128 L44 128 M10 150 L38 150 M18 172 L44 172" stroke="#3A5480" stroke-width="7.800000000000001" stroke-linecap="round"/>
+<path d="M152 150 L138 116 L112 92" fill="none" stroke="#D6DDE6" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M152 150 L138 184 L112 208" fill="none" stroke="#D6DDE6" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M165 150 L165 116 L171 92" fill="none" stroke="#D6DDE6" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M165 150 L165 184 L171 208" fill="none" stroke="#D6DDE6" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M178 150 L192 116 L214 92" fill="none" stroke="#D6DDE6" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M178 150 L192 184 L214 208" fill="none" stroke="#D6DDE6" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="95" cy="150" r="52" fill="#121B2E" stroke="#D6DDE6" stroke-width="6.5"/>
+<circle cx="95" cy="150" r="38" fill="none" stroke="#3A5480" stroke-width="3.9000000000000004"/>
+<circle cx="95" cy="150" r="26" fill="none" stroke="#3A5480" stroke-width="3.9000000000000004"/>
+<circle cx="95" cy="150" r="13" fill="{{accent}}"/><circle cx="95" cy="150" r="3" fill="#121B2E"/>
+<path d="M147 150 L130 150" stroke="#D6DDE6" stroke-width="7.800000000000001"/>
+<ellipse cx="165" cy="150" rx="22" ry="16" fill="#D6DDE6"/>
+<path d="M187 150 L196 148" stroke="#D6DDE6" stroke-width="7.800000000000001"/>
+<circle cx="214" cy="146" r="20" fill="#D6DDE6"/>
+<circle cx="222" cy="140" r="4" fill="#121B2E"/>
+<path d="M222 128 Q228 100 250 88 M210 127 Q208 98 222 76" fill="none" stroke="#D6DDE6" stroke-width="5.2" stroke-linecap="round"/>
+<path d="M256 74 A14 14 0 0 1 264 96 M260 64 A24 24 0 0 1 270 100" fill="none" stroke="{{accent}}" stroke-width="5.2" stroke-linecap="round"/>
+</g>
+</svg>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px">
+<div style="font-family: 'Syncopate', sans-serif; font-weight: 700; font-size: 26px; letter-spacing: 0.1em; color: #D6DDE6">BUG<span style="color: {{accent}}; font-weight: 400">BEATS</span></div>
+<div style="font-size: 14px; letter-spacing: 0.24em; color: #8A97AB">EST. 2000 · ERA PS2</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#F2A13B"},"bg":{"editor":"color","default":"#0B1220"},"$preview":{"width":720,"height":720}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#F2A13B', bg: this.props.bg ?? '#0B1220' };
+}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Rhythmetro Laranja</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Michroma&amp;family=Space+Grotesk:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 720px; height: 720px; box-sizing: border-box; background: {{bg}}; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 32px; font-family: 'Space Grotesk', sans-serif">
+<svg width="280" height="280" viewBox="0 0 280 280" role="img" aria-label="Símbolo Rhythmetro">
+<rect x="30" y="30" width="220" height="220" rx="44" fill="#1A1A1A" stroke="#EDE6DA" stroke-width="5"/>
+<path d="M58 160 L98 160 L122 100 L150 196 L174 128 L190 160 L222 160" fill="none" stroke="{{accent}}" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="58" cy="160" r="10" fill="#EDE6DA"/>
+<circle cx="122" cy="100" r="9" fill="#0E0E0E" stroke="#EDE6DA" stroke-width="5"/>
+<circle cx="150" cy="196" r="9" fill="#0E0E0E" stroke="#EDE6DA" stroke-width="5"/>
+<circle cx="174" cy="128" r="9" fill="#0E0E0E" stroke="#EDE6DA" stroke-width="5"/>
+<path d="M222 160 L206 146 M222 160 L206 174" stroke="{{accent}}" stroke-width="10" stroke-linecap="round"/>
+<path d="M58 70 L110 70" stroke="#6B5233" stroke-width="8" stroke-linecap="round"/><path d="M58 88 L84 88" stroke="#6B5233" stroke-width="8" stroke-linecap="round"/>
+</svg>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 12px">
+<div style="font-family: 'Michroma', sans-serif; font-size: 36px; letter-spacing: 0.12em; color: #EDE6DA">RHYTH<span style="color: {{accent}}">METRO</span></div>
+<div style="font-size: 15px; letter-spacing: 0.18em; color: #9A8F80">DRUM &amp; BASS · LIQUID · 2000–2006</div>
+</div>
+<div style="display: flex; align-items: center; gap: 16px">
+<div style="width: 88px; height: 88px; border-radius: 50%; background: #1A1A1A; display: flex; align-items: center; justify-content: center">
+<svg width="60" height="60" viewBox="0 0 280 280" aria-hidden="true">
+<rect x="30" y="30" width="220" height="220" rx="44" fill="#1A1A1A" stroke="#EDE6DA" stroke-width="8.0"/>
+<path d="M58 160 L98 160 L122 100 L150 196 L174 128 L190 160 L222 160" fill="none" stroke="{{accent}}" stroke-width="19.200000000000003" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="58" cy="160" r="16.0" fill="#EDE6DA"/>
+<circle cx="122" cy="100" r="14.4" fill="#0E0E0E" stroke="#EDE6DA" stroke-width="8.0"/>
+<circle cx="150" cy="196" r="14.4" fill="#0E0E0E" stroke="#EDE6DA" stroke-width="8.0"/>
+<circle cx="174" cy="128" r="14.4" fill="#0E0E0E" stroke="#EDE6DA" stroke-width="8.0"/>
+<path d="M222 160 L206 146 M222 160 L206 174" stroke="{{accent}}" stroke-width="16.0" stroke-linecap="round"/>
+<path d="M58 70 L110 70" stroke="#6B5233" stroke-width="12.8" stroke-linecap="round"/><path d="M58 88 L84 88" stroke="#6B5233" stroke-width="12.8" stroke-linecap="round"/>
+</svg>
+</div>
+<div style="font-size: 14px; color: #9A8F80">como foto de perfil</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#F2A13B"},"bg":{"editor":"color","default":"#0E0E0E"},"$preview":{"width":720,"height":720}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#F2A13B', bg: this.props.bg ?? '#0E0E0E' };
+}
+}
+</script>
+</body>
+</html>

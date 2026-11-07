@@ -1,0 +1,16 @@
+ANIMAÇÕES EDITÁVEIS DOS LOGOS
+
+Cada .html é uma animação em SVG + JavaScript. Abra no navegador e ela toca em loop.
+As fontes (Russo One e Silkscreen, licença livre OFL) estão na pasta "fontes": mantenha a pasta junto dos arquivos.
+
+O que dá para editar em cada arquivo (com qualquer editor de texto, ex.: VS Code):
+- BPM: a linha "const BPM=174".
+- Cores: localizar e substituir os códigos #111111 (preto), #F2A13B (laranja), #EDE6DA (creme), #C8322B (vermelho).
+- Textos: edite direto no SVG (ex.: "@bugbeats", "DRUM N BASS · 2000-2006").
+- Movimento: a função window.setT no fim do arquivo.
+
+Para gerar o MP4 de novo (1080x1920):
+1. npm i playwright  e  npx playwright install chromium
+2. node gravar-video.js bugbeats-colonia.html
+3. ffmpeg -framerate 29.9 -i quadros/%04d.jpg -c:v libx264 -crf 20 -pix_fmt yuv420p bugbeats-colonia.mp4
+   (para dobrar a duração: ffmpeg -stream_loop 1 -i bugbeats-colonia.mp4 -c copy bugbeats-colonia-2x.mp4)

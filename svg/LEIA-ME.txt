@@ -1,0 +1,3 @@
+Logos em SVG para abrir no Figma, Illustrator ou Inkscape, com formas e textos separados.
+Instale as fontes da pasta "fontes" (Russo One e Silkscreen, licença livre OFL) antes de abrir, senão os textos aparecem em outra fonte.
+Cores: preto #111111, creme #EDE6DA, laranja #F2A13B, vermelho #C8322B.

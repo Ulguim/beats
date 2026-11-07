@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Tempocity Claro</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Michroma&amp;family=Space+Grotesk:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 720px; height: 720px; box-sizing: border-box; background: {{bg}}; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 32px; font-family: 'Space Grotesk', sans-serif">
+<svg width="280" height="280" viewBox="0 0 280 280" role="img" aria-label="Símbolo Tempocity">
+<circle cx="140" cy="110" r="70" fill="none" stroke="#1B2233" stroke-width="8"/>
+<path d="M140 110 L140 62 M140 110 L176 128" stroke="{{accent}}" stroke-width="10" stroke-linecap="round"/>
+<path d="M30 240 L30 190 L70 190 L70 160 L100 160 L100 200 L180 200 L180 150 L215 150 L215 185 L250 185 L250 240 Z" fill="#7C8496"/>
+</svg>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 12px">
+<div style="font-family: 'Michroma', sans-serif; font-size: 36px; letter-spacing: 0.12em; color: #1B2233">TEMPO<span style="color: {{accent}}">CITY</span></div>
+<div style="font-size: 15px; letter-spacing: 0.18em; color: #6B6559">DRUM &amp; BASS · LIQUID · 2000–2006</div>
+</div>
+<div style="display: flex; align-items: center; gap: 16px">
+<div style="width: 88px; height: 88px; border-radius: 50%; background: #E2DACC; display: flex; align-items: center; justify-content: center">
+<svg width="60" height="60" viewBox="0 0 280 280" aria-hidden="true">
+<circle cx="140" cy="110" r="70" fill="none" stroke="#1B2233" stroke-width="8"/>
+<path d="M140 110 L140 62 M140 110 L176 128" stroke="{{accent}}" stroke-width="10" stroke-linecap="round"/>
+<path d="M30 240 L30 190 L70 190 L70 160 L100 160 L100 200 L180 200 L180 150 L215 150 L215 185 L250 185 L250 240 Z" fill="#7C8496"/>
+</svg>
+</div>
+<div style="font-size: 14px; color: #6B6559">como foto de perfil</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#E2552B"},"bg":{"editor":"color","default":"#EFE9DF"},"$preview":{"width":720,"height":720}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#E2552B', bg: this.props.bg ?? '#EFE9DF' };
+}
+}
+</script>
+</body>
+</html>

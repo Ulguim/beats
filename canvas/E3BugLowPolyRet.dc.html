@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Bug Beats · low poly em retícula</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&amp;family=Silkscreen&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 720px; height: 720px; overflow: hidden; background: {{paper}}">
+<svg width="720" height="720" viewBox="0 0 720 720"><rect width="720" height="720" fill="{{paper}}"/><g transform="translate(360 270) scale(1.8) translate(-140 -146)"><defs><pattern id="lp0" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="{{paper}}"/><circle cx="3.5" cy="3.5" r="2.6" fill="{{ink}}"/></pattern><pattern id="lp1" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="{{paper}}"/><circle cx="3.5" cy="3.5" r="1.4" fill="{{ink}}"/></pattern><pattern id="lp2" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="{{paper}}"/><circle cx="3.5" cy="3.5" r="0.9" fill="{{ink}}"/></pattern><pattern id="lp3" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="{{paper}}"/><circle cx="3.5" cy="3.5" r="1.2" fill="{{ink}}"/></pattern><pattern id="lp4" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="{{paper}}"/><circle cx="3.5" cy="3.5" r="2.0" fill="{{ink}}"/></pattern><pattern id="lp5" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="{{paper}}"/><circle cx="3.5" cy="3.5" r="2.8" fill="{{ink}}"/></pattern><pattern id="lp6" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="{{paper}}"/><circle cx="3.5" cy="3.5" r="3.2" fill="{{ink}}"/></pattern><pattern id="lp7" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="{{paper}}"/><circle cx="3.5" cy="3.5" r="3.0" fill="{{ink}}"/></pattern></defs>
+<polyline points="118,66 100,30 70,22" fill="none" stroke="{{ink}}" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="162,66 180,30 210,22" fill="none" stroke="{{ink}}" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="140,146 140,60 198,82" fill="url(#lp0)" stroke="{{ink}}" stroke-width="2.5" stroke-linejoin="round"/><polygon points="140,146 198,82 218,140" fill="url(#lp1)" stroke="{{ink}}" stroke-width="2.5" stroke-linejoin="round"/><polygon points="140,146 218,140 198,198" fill="url(#lp2)" stroke="{{ink}}" stroke-width="2.5" stroke-linejoin="round"/><polygon points="140,146 198,198 140,222" fill="url(#lp3)" stroke="{{ink}}" stroke-width="2.5" stroke-linejoin="round"/><polygon points="140,146 140,222 82,198" fill="url(#lp4)" stroke="{{ink}}" stroke-width="2.5" stroke-linejoin="round"/><polygon points="140,146 82,198 62,140" fill="url(#lp5)" stroke="{{ink}}" stroke-width="2.5" stroke-linejoin="round"/><polygon points="140,146 62,140 82,82" fill="url(#lp6)" stroke="{{ink}}" stroke-width="2.5" stroke-linejoin="round"/><polygon points="140,146 82,82 140,60" fill="url(#lp7)" stroke="{{ink}}" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="84,112 118,124 106,170 78,150" fill="{{ink}}"/><polygon points="196,112 162,124 174,170 202,150" fill="{{ink}}"/>
+<polygon points="92,126 104,130 97,142" fill="{{accent}}"/><polygon points="188,126 176,130 183,142" fill="{{accent}}"/>
+<polygon points="122,214 106,252 134,236" fill="{{accent}}" stroke="{{ink}}" stroke-width="2.5" stroke-linejoin="round"/><polygon points="158,214 174,252 146,236" fill="{{accent}}" stroke="{{ink}}" stroke-width="2.5" stroke-linejoin="round"/></g><text x="487.56" y="600" text-anchor="middle" font-family="Russo One, sans-serif" font-size="92" letter-spacing="3" transform="skewX(-12)"><tspan fill="{{ink}}">BUG</tspan><tspan fill="{{accent}}">BEATS</tspan></text><text x="360" y="655" text-anchor="middle" font-family="Silkscreen, monospace" font-size="18" letter-spacing="7" fill="{{ink}}">LOW POLY EM RETÍCULA</text><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="720" height="720" filter="url(#grain)" opacity="0.1" style="mix-blend-mode: multiply"/></svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"ink":{"editor":"color","default":"#111111"},"accent":{"editor":"color","default":"#F2A13B"},"paper":{"editor":"color","default":"#EDE6DA"},"red":{"editor":"color","default":"#C8322B"},"$preview":{"width":720,"height":720}}'>
+class Component extends DCLogic {
+renderVals() {
+return { ink: this.props.ink ?? '#111111', accent: this.props.accent ?? '#F2A13B', paper: this.props.paper ?? '#EDE6DA', red: this.props.red ?? '#C8322B' };
+}
+}
+</script>
+</body>
+</html>
